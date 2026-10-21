@@ -14,7 +14,7 @@ function arePos(params) {
     return true;
 }
 
-function readNumbersCellHeight(form) {
+function cellHeight(form) {
 
     const U = parseFloat(form.flowVelocity.value);
     const lScale = parseFloat(form.lengthScale.value);
@@ -84,7 +84,7 @@ function readNumbersCellHeight(form) {
     return false;
 }
 
-function readNumbersHumidity(form){
+function humidity(form){
 
     const TdegC = parseFloat(form.temperature.value);
     const p = parseFloat(form.pressure.value);
@@ -138,7 +138,7 @@ function readNumbersHumidity(form){
     return false;
 }
 
-function readNumbersTurbulence(form) {
+function turbulence(form) {
 
     const U = parseFloat(form.flowVelocity.value);
     const I = parseFloat(form.intensity.value);
@@ -168,7 +168,7 @@ function readNumbersTurbulence(form) {
     return false;
 }
 
-function readNumbersParticleSettling(form) {
+function particleSettling(form) {
 
     const d = parseFloat(form.diameter.value);
     const rhop = parseFloat(form.particleDensity.value);
