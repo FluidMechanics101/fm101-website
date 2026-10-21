@@ -1,3 +1,19 @@
+function arePos(params) {
+    if (!Array.isArray(params) || params.length === 0) {
+        return false;
+    }
+
+    for (let i = 0; i < params.length; i++) {
+        const num = Number(params[i]);
+
+        if (isNaN(num) || !Number.isFinite(num) || num <=0) {
+            return false;
+        }
+    }
+
+    return true;
+}
+
 function readNumbersCellHeight(form) {
 
     const U = parseFloat(form.flowVelocity.value);
@@ -7,18 +23,7 @@ function readNumbersCellHeight(form) {
     const yPlus = parseFloat(form.yPlus.value);
     const layers = parseInt(form.layers.value, 10);
 
-    if (
-        isNaN(U) || isNaN(lScale) || isNaN(mu) ||
-        isNaN(rho) || isNaN(yPlus) || isNaN(layers)
-    ) {
-        alert("Please enter numbers only");
-        return false;
-    }
-
-    if (
-        U <= 0 || lScale <= 0 || mu <= 0 ||
-        rho <= 0 || yPlus <= 0 || layers <= 0
-    ) {
+    if (!arePos([U, lScale, mu, rho, yPlus, layers])) {
         alert("Please enter positive numbers only");
         return false;
     }
@@ -75,6 +80,8 @@ function readNumbersCellHeight(form) {
     form.finalLayer.value = finalLayer.toExponential(2);
     form.delta99.value = delta99.toExponential(2);
     form.growthRatio.value = growthRatio.toFixed(2);
+
+    return false;
 }
 
 function readNumbersHumidity(form){
@@ -83,12 +90,7 @@ function readNumbersHumidity(form){
     const p = parseFloat(form.pressure.value);
     const rH = parseFloat(form.relativeHumidity.value);
 
-    if (isNaN(TdegC) || isNaN(p) || isNaN(rH)) {
-        alert("Please enter numbers only");
-        return false;
-    }
-
-    if (TdegC <= 0 || p <= 0 || rH <= 0) {
+    if (!arePos([TdegC, p, rH])) {
         alert("Please enter positive numbers only");
         return false;
     }
@@ -132,6 +134,8 @@ function readNumbersHumidity(form){
     form.specificHumidity.value = sH.toExponential(2);
     form.absoluteHumidity.value = aH.toExponential(2);
     form.massFraction.value = aH.toExponential(2);
+
+    return false;
 }
 
 function readNumbersTurbulence(form) {
@@ -140,12 +144,7 @@ function readNumbersTurbulence(form) {
     const I = parseFloat(form.intensity.value);
     const lScale = parseFloat(form.lengthScale.value);
 
-    if (isNaN(U) || isNaN(I) || isNaN(lScale)) {
-        alert("Please enter numbers only");
-        return false;
-    }
-
-    if (U <= 0 || I <= 0 || lScale <= 0) {
+    if (!arePos([U, I, lScale])) {
         alert("Please enter positive numbers only");
         return false;
     }
@@ -174,12 +173,7 @@ function readNumbersParticleSettling(form) {
     const d = parseFloat(form.diameter.value);
     const rhop = parseFloat(form.particleDensity.value);
 
-    if (isNaN(d) || isNaN(rhop)) {
-        alert("Please enter numbers only");
-        return false;
-    }
-
-    if (d <= 0 || rhop <= 0) {
+    if (!arePos([d, rhop])) {
         alert("Please enter positive numbers only");
         return false;
     }
@@ -234,6 +228,8 @@ function readNumbersParticleSettling(form) {
     form.reynoldsNumber.value = Re.toExponential(2);
     form.cd.value = Cd.toFixed(1);
     form.settlingVelocity.value = U.toExponential(2);
+
+    return false;
 }
 
 function modifiedStokes(d, rhop, rhof, mu, f){
