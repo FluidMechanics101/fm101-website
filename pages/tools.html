@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136009061-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-136009061-1');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Learn Computational Fluid Dynamics (CFD). Discover key equations and references used by popular CFD codes">
+    <meta name="keywords" content="Fluid Mechanics 101, CFD, OpenFOAM, ANSYS, ANSYS Fluent, SIMPLE Algorithm, Lectures, Calculators"></head>
+    <meta name="theme-color" content="#f4f4f4">
+    <meta name="title" content="Calculators and Tools">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Fluid Mechanics 101</title>
+</head>
+<body>
+
+    <!-- Nav Bar -->
+
+    <nav class = "main-nav">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="shop.html">Courses</a></li>
+            <li><a href="lectures.html">Lectures</a></li>
+            <li><a href="">Calculators</a></li>
+        </ul>
+    </nav>
+
+    <header class="showcase">
+        <div class="background background-tools"></div>
+        <div class="background-content">
+            <div class="title">
+                Calculators and Tools
+            </div>
+            <div class = "text">
+                Browse a range of CFD calculators and tools
+            </div>
+            <a id = "scroll-down-button" class="button" onclick="scrollDown()">Browse</a>
+        </div>
+    </header>
+
+    <section class="bg-light">
+        <div class="card-container card-grid">
+            <div class="card card-click" onclick="scrollToFirstCellHeightSection()">
+                <img src="../img/firstCellHeight.svg" alt="Avatar">
+                <div class="text">
+                    <h4><b>Inflation Layers</b></h4>
+                </div>
+            </div>
+            <div class="card card-click" onclick="scrollToInletTurbulenceSection()">
+                <img src="../img/turbulenceInlet.svg" alt="Avatar">
+                <div class="text">
+                    <h4><b>Inlet Turbulence</b></h4>
+                </div>
+            </div>
+            <div class="card card-click" onclick="scrollToParticleSettlingSection()">
+                <img src="../img/particleSettling.svg" alt="Avatar">
+                <div class="text">
+                    <h4><b>Particle Settling</b></h4>
+                </div>
+            </div>
+            <div class="card card-click" onclick ="scrollToHumiditySection()">
+                <img src="../img/humidity.svg" alt="Avatar">
+                <div class="text">
+                    <h4><b>Humidity</b></h4>
+                </div>
+            </div>
+            <div class="card card-click" onclick ="scrollToHowItWorksSection()">
+                <img src="../img/howDoesItWork.svg" alt="Avatar">
+                <div class="text">
+                    <h4><b>How Do They Work?</b></h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculators -->
+    <section>
+        <div class="container-slim centre bg-dark dotted-border-bottom" id="firstCellHeightSection">
+            <img class="half-image" src="../img/firstCellHeightDiagram.svg" alt="cell-height-image">
+            <div class="form-header">
+                <h2>Inflation Layer Calculator</h2>
+                <p>Estimate the height of the first cell in the inflation layer to achieve a target y<sup>+</sup> value and the maximum growth ratio for the inflation layers to cover the boundary layer thickness. Default values for air at 10 m/s, over a 1m long flat plate are provided, with 20 inflation layers.</p>
+            </div>
+            <div class="form-wrapper">
+                <form name="cellHeightCalculatorForm" id="cellHeightCalculatorForm" onsubmit="return false">
+                    <p>
+                        <label>Velocity (m/s)</label>
+                        <input type="text" name="flowVelocity" placeholder="10.0">
+                    </p>
+                    <p>
+                        <label>Length Scale (m)</label>
+                        <input type="text" name="lengthScale" placeholder="1.0">
+                    </p>
+                    <p>
+                        <label>Viscosity (Pa s)</label>
+                        <input type="text" name="dynamicViscosity" placeholder="1.81e-5">
+                    </p>
+                    <p>
+                        <label>Density (kg/m3)</label>
+                        <input type="text" name="density" placeholder="1.225">
+                    </p>
+                    <p>
+                        <label>Target y<sup>+</sup> (-)</label>
+                        <input type="text" name="yPlus" placeholder="1.0">
+                    </p>
+                    <p>
+                        <label>Layers (-)</label>
+                        <input type="text" name="layers" placeholder="20">
+                    </p>
+                    <p class="full">
+                        <button id = "submitbutton" name="calculatebutton" class="button" type="submit" onClick="readNumbersCellHeight(this.form)">Calculate</button>
+                    </p>
+                    <p>
+                        <label>First Layer (m)</label>
+                        <input type ="text" name="yH" placeholder="-- Calculated --"></input>
+                    </p>
+                    <p>
+                        <label>Final Layer (m)</label>
+                        <input type ="text" name="finalLayer" placeholder="-- Calculated --"></input>
+                    </p>
+
+                    <p>
+                        <label>&#948;<sub>99</sub> (m)</label>
+                        <input type ="text" name="delta99" placeholder="-- Calculated --"></input>
+                    </p>
+
+                    <p>
+                        <label>Max. Growth Ratio (-)</label>
+                        <input type ="text" name="growthRatio" placeholder="-- Calculated --"></input>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-slim centre bg-dark dotted-border-bottom" id="humiditySection">
+            <div class="form-header">
+                <h2>Humidity Calculator</h2>
+                <p>For a given temperature, pressure and relative humidity, compute the specific humidity (mass of water vapour per unit mass of dry air), absolute humidity (mass of water vapour per unit mass of air-water vapour mixture) and mass fraction of water vapour. Default values for air at room temperature (25&#176;C), pressure (101325 Pa) and a relative humidity of 60% are provided.</p>
+            </div>
+            <div class="form-wrapper">
+                <form name="humidityCalculatorForm" id="humidityCalculatorForm" onsubmit="return false">
+                    <p>
+                        <label>Temp (&#176;C)</label>
+                        <input type="text" name="temperature" placeholder="25.0">
+                    </p>
+                    <p>
+                        <label>Pressure (Pa)</label>
+                        <input type="text" name="pressure" placeholder="101325">
+                    </p>
+                    <p>
+                        <label>Rel. Hum. (-)</label>
+                        <input type="text" name="relativeHumidity" placeholder="0.6">
+                    </p>
+                    <p class="full">
+                        <button id = "submitbutton" name="calculatebutton" class="button" type="submit" onClick="readNumbersHumidity(this.form)">Calculate</button>
+                    </p>
+                    <p>
+                        <label>Spec. Hum. (kg/kg)</label>
+                        <input type ="text" name="specificHumidity" placeholder="-- Calculated --"></input>
+                    </p>
+                    <p>
+                        <label>Abs. Hum. (kg/kg)</label>
+                        <input type ="text" name="absoluteHumidity" placeholder="-- Calculated --"></input>
+                    </p>
+                    <p>
+                        <label>Mass Frac. (-)</label>
+                        <input type ="text" name="massFraction" placeholder="-- Calculated --"></input>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-slim centre bg-dark dotted-border-bottom" id="inletTurbulenceSection">
+            <div class="form-header">
+                <h2>Turbulence Inlet Conditions Calculator</h2>
+                <p>For a given freestream turbulence intensity and length scale, compute the inlet values of turbulent kinetic energy (k), turbulence dissipation rate (&#949;), specific dissipation rate (&#969;) and turbulent kinematic viscosity (&#957;<sub>t</sub>). Default values for a flow at 10 m/s, with an intensity of 5% are shown. </p>
+            </div>
+            <div class="form-wrapper">
+                <form name="cellHeightCalculatorForm" id="cellHeightCalculatorForm" onsubmit="return false">
+                    <p>
+                        <label>Velocity (m/s)</label>
+                        <input type="text" name="flowVelocity" placeholder="10.0">
+                    </p>
+                    <p>
+                        <label>Intensity (%)</label>
+                        <input type="text" name="intensity" placeholder="5.0">
+                    </p>
+                    <p>
+                        <label>Length Scale (m)</label>
+                        <input type="text" name="lengthScale" placeholder="0.1">
+                    </p>
+                    <p class="full">
+                        <button id = "submitbutton" name="calculatebutton" class="button" type="submit" onClick="readNumbersTurbulence(this.form)">Calculate</button>
+                    </p>
+                    <p>
+                        <label>k (m<sup>2</sup>/s<sup>2</sup>)</label>
+                        <input type ="text" name="k" placeholder="-- Calculated --"></input>
+                    </p>
+                    <p>
+                        <label>&#969; (s<sup>-1</sup>)</label>
+                        <input type ="text" name="omega" placeholder="-- Calculated --"></input>
+                    </p>
+                    <p>
+                        <label>&#949; (m<sup>2</sup>/s<sup>3</sup>)</label>
+                        <input type ="text" name="epsilon" placeholder="-- Calculated --"></input>
+                    </p>
+                    <p>
+                        <label>&#957;<sub>t</sub> (m<sup>2</sup>/s)</label>
+                        <input type ="text" name="nut" placeholder="-- Calculated --"></input>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-slim centre bg-dark" id="particleSettlingSection">
+            <div class="form-header">
+                <h2>Particle Settling Velocity Calculator</h2>
+                <p>Calculate the terminal settling velocity of a spherical particle falling under gravity in a viscous fluid. Default values for a 100 micron sand particle in water are provided.</p>
+            </div>
+            <div class="form-wrapper">
+                <form name="settlingVelocityCalculatorForm" id="settlingVelocityCalculatorForm" onsubmit="return false">
+                    <p>
+                        <label>Diameter (m)</label>
+                        <input type="text" name="diameter" placeholder="100e-6">
+                    </p>
+                    <p>
+                        <label>Density (kg/m3)</label>
+                        <input type="text" name="particleDensity" placeholder="1550">
+                    </p>
+                    <p>
+                        <label>Fluid</label>
+                            <select name="fluidChoice">
+                                <option value="Water">Water</option>
+                                <option value="Air">Air</option>
+                             </select>
+                    </p>
+                    <p class="full">
+                        <button id = "submitbutton" name="calculatebutton" class="button" type="submit" onClick="readNumbersParticleSettling(this.form)">Calculate</button>
+                    </p>
+                    <p>
+                        <label>Re (-)</label>
+                        <input type ="text" name="reynoldsNumber" placeholder="-- Calculated --"></input>
+                    </p>
+                    <p>
+                        <label>C<sub>D</sub> (-)</label>
+                        <input type ="text" name="cd" placeholder="-- Calculated --"></input>
+                    </p>
+                    <p>
+                        <label>Velocity (m/s)</label>
+                        <input type ="text" name="settlingVelocity" placeholder="-- Calculated --"></input>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light">
+        <div class="container-slim centre" id="howItWorksSection">
+            <div class="form-header">
+                <h2>How do the calculators work?</h2>
+                <p>Before using these calculators, it should be emphasised that unverified sources of information on the internet should not be trusted or relied upon. The calculators themselves (and the equations they use) <b>have not been verified or checked</b> and are likely to contain errors. Hence, if you want to use the calculators or methods in the calculators yourself, you should check the original sources and equations themselves and implement them yourself in your own work (and follow the verification and validation processes adopted by your company / institution). The calculators use a series of empirical correlations to obtain an engineering estimate of the quantities of interest. The calculators are for educational and demonstrative purposes only and should not be used to analyse, design, accredit or validate real scientific / engineering / mathematical structures and flow systems. For such applications, appropriate trained, qualified and accredited (SQEP) engineers / scientists should be consulted along with the appropriate documentation and engineering standards. Fluid Mechanics 101 and Dr. Aidan Wimshurst are not accountable or liable in any form for the use or misuse of the calculators beyond the specific educational and demonstrative purposes for which they were intended. </p>
+            </div>
+            <a href="../pdf/calculators.pdf" download target="_blank" rel="noreferrer" class="download-button"><img src="../img/pdfSymbol.svg" alt = "Download Link">Read PDF</a>
+        </div>
+    </section>
+
+    <!-- Button to scroll to top -->
+    <button onclick="scrollToTop()" id="scrollTopButton" title="Go to top">Top</button>
+
+    <!-- footer -->
+    <footer class="centre bg-dark">
+        <p>Fluid Mechanics 101 &copy 2026</p>
+    </footer>
+
+    <!-- Render Blocking scripts and style sheets -->
+    <script type="text/javascript" src='../js/scrollButton.js'></script>
+    <script type="text/javascript" src='../js/scrollTopButton.js'></script>
+    <script type="text/javascript" src='../js/calculator.js'></script>
+
+</body>
+</html>

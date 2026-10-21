@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136009061-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-136009061-1');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Learn Computational Fluid Dynamics (CFD). Discover key equations and references used by popular CFD codes">
+    <meta name="keywords" content="Fluid Mechanics 101, CFD, OpenFOAM, ANSYS, ANSYS Fluent, SIMPLE Algorithm, Lectures, Calculators"></head>
+    <meta name="theme-color" content="#f4f4f4">
+    <meta name="title" content="Courses and Lectures">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Fluid Mechanics 101</title>
+</head>
+<body>
+
+    <!-- Nav Bar -->
+    <nav class = "main-nav">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="">Courses</a></li>
+            <li><a href="lectures.html">Lectures</a></li>
+            <li><a href="tools.html">Calculators</a></li>
+        </ul>
+    </nav>
+
+    <header class="showcase">
+        <div class="background background-courses bg-light"></div>
+        <div class="background-content dark-font">
+            <div class="title">
+                Courses
+            </div>
+            <div class = "text">
+                From Differential Equations to Solution Algorithms. Behind the scenes of CFD.
+            </div>
+            <a id = "scroll-down-button" class="button" onclick="scrollDown()">Study Now</a>
+        </div>
+    </header>
+
+
+    <!-- Cards -->
+    <section class="bg-light">
+        <div class="card-container card-grid">
+            <div class="card card-click" id="checkout-button-sku_FIr6L8bYAe6e2M" target="_blank" rel="noreferrer" role="link">
+                <img src="../img/card-course1.svg" alt="Avatar">
+                <div class="text">
+                    <h4><b>Fundamentals 1</b></h4>
+                    <p class="centre">£29.99<p>
+                    <ul>
+                        <li>Diffusion</li>
+                        <li>Convection Diffusion</li>
+                        <li>Upwinding</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card card-click" target="_blank" rel="noreferrer" id="checkout-button-sku_FsoiQ4pqcEcxmY" role="link">
+                <img src="../img/card-course2.svg" alt="Avatar">
+                <div class="text">
+                    <h4><b>Fundamentals 2</b></h4>
+                    <p class="centre">£29.99<p>
+                    <ul>
+                        <li>Boundary Conditions</li>
+                        <li>2D Diffusion</li>
+                        <li>Wall Functions</li>
+                    </ul>
+                </div>
+            </div>
+            <div  class="card card-click" target="_blank" rel="noreferrer" id="checkout-button-sku_GejE4UfyblZ0Gg" role="link">
+                <img src="../img/card-course3.svg" alt="Avatar">
+                <div class="text">
+                    <h4><b>Fundamentals 3</b></h4>
+                    <p class="centre">£29.99<p>
+                    <ul>
+                        <li>Unstructured Meshes</li>
+                        <li>Mesh Construction</li>
+                        <li>Mesh Quality</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Text Below Cards -->
+    <section class="bg-light">
+
+        <div class="container-yt bg-light">
+            <div class="title">
+                CFD Fundamentals
+            </div>
+            <div class = "text">
+                <p>
+                Our flagship courses show you how CFD codes really work. With simple examples that are developed from first principles, the courses allow you to see the matrices as they are assembled and solved using the finite volume method. A must-have for any CFD engineer. </p>
+                <p>Fundamentals 1 starts by solving the convection and diffusion of heat in a 1D channel. This example is extended in Fundamentals 2 and 3 to look at 2D flows, unstructured meshes and wall functions. While these courses don't teach you how to use ANSYS Fluent, OpenFOAM or Star CCM, they will help you understand how modern CFD codes actually work behind the scenes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accordion Menu -->
+    <section class="bg-light">
+        <div class="container-accordion">
+            <div class="accordion-title">
+                <p>Frequently Asked Questions (FAQs)</p>
+            </div>
+
+            <button class="accordion accordion-light">How do the courses work?</button>
+            <div class="panel panel-light">
+                <p>The courses are delivered using a comprehensive PDF textbook and video lectures. The textbook guides you through the theory of the finite volume method and CFD, with worked examples provided along the way. The worked examples help enhance your understanding of the equations and enable you to play around with the variables for yourself. </p>
+
+                <p>For all the examples, Microsoft Excel spreadsheets and Python source code is provided, so you can interrogate all of the matrices and formulae for yourself. You will be looking behind the scenes at how CFD codes actually work! </p>
+            </div>
+
+            <button class="accordion accordion-light">How difficult are the courses?</button>
+            <div class="panel panel-light">
+              <p>The content is delivered from first principles and the only required pre-requsites are basic differential equations, matrices and vector calculus. Hence, the courses are perfect for university/college level science, engineering, physics and mathematics students. No prior knowledge of CFD or specific CFD codes is required.</p>
+            </div>
+
+            <button class="accordion accordion-light">Do I Need ANSYS Fluent, OpenFOAM, Star CCM or ANSYS CFX for these Courses?</button>
+            <div class="panel panel-light">
+              <p>No. The courses are delivered using Python and Microsoft Excel Only. Hence, you do not need any specific CFD code to complete the course. You can complete the course with either Python or Microsoft Excel.</p>
+            </div>
+
+            <button class="accordion accordion-light">I have a specific problem with ANSYS / OpenFOAM or Star CCM. Will the course solve my problem?</button>
+            <div class="panel panel-light">
+                <p>The courses do not address troubleshooting / debugging issues with specific CFD codes. The course provides a general background for the finite volume method and how CFD codes work. If you have a specific problem with your CFD code you should contact the code vendor (ANSYS, OpenFOAM, Siemens etc.) and ask for their help. This course cannot troubleshoot why your CFD simulation has diverged! </p>
+            </div>
+
+            <button class="accordion accordion-light">Can I get a free trial?</button>
+            <div class="panel panel-light">
+                <p>Not sure if the courses are right for you? Get a free trial version of Fundamentals 1. </p>
+                <a href="../pdf/fundamentalsCourseTrialVersion.zip" download target="_blank" rel="noreferrer" class="download-button"><img src="../img/downloadSymbol.svg" alt = "Download Link"> Download Free Trial</a>
+                <p></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professionals Course -->
+    <section class="bg-dark">
+        <div class="container-half-image grid-2">
+            <div>
+                <img class="half-image" src="../img/professionals.png" alt="full-image">
+            </div>
+
+            <div class="vertical-mid-align">
+                <div class="half-image-right">
+                    <div class="title">
+                        CFD for Professionals
+                    </div>
+                    <div class = "text">
+                        Our premium course. For the professionals.
+                    </div>
+                    <a class="red-button" target="_blank" rel="noreferrer" id="checkout-button-sku_J3j1n9kyHkC8uy" role="link">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Text below Professionals -->
+    <section class="bg-dark">
+
+        <div class="container-yt bg-dark">
+            <div class="title">
+                CFD for Professionals
+            </div>
+            <div class = "text">
+                Make your work stand out from other CFD engineers. Learn techniques that can signifcicantly improve the quality of your thesis, academic papers and technical reports. This course does not teach you how to carry out CFD analyses, but how to master your results and excel at presenting them.
+            </div>
+        </div>
+    </section>
+
+    <!-- Accordion Menu -->
+    <section class="bg-dark">
+        <div class="container-accordion">
+            <div class="accordion-title">
+                <p>Frequently Asked Questions (FAQs)</p>
+            </div>
+
+            <button class="accordion accordion-dark">What is in <i>CFD for Professionals</i>?</button>
+            <div class="panel panel-dark">
+                <p><i>CFD for Professionals</i> is delivered using a comprehensive PDF textbook and video lectures. The textbook is divided into 2 Chapters:</p>
+                <ol>
+                    <li>Verification and Validation</li>
+                    <li>Presenting Data</li>
+                </ol>
+                <p>Chapter 1 shows you how to demontrate the accuracy of your calculations. You will learn how to carry out a mesh refinement study correctly using Richardson Extrapolation, which is a technique recommended by the <i>Journal of Fluids Engineering</i>. Chapter 1 also shows you how to choose the right RANS turbulence model and find good sources of experimental data for validation.</p>
+
+                <p>Chapter 2 covers the most popular methods of presenting data: contour plots, line plots and tables. You will learn simple techniques that can significantly improve the clarity of your data including: how to choose the right colour map on your contour plots and how to use zoom boxes for increased resolution.</p>
+
+                <p>Worked examples are provided throughout the course, so that you can learn the techniques as soon as they are presented. Microsoft Excel spreadsheets and Python source code are also provided for Richardson Extrapolation, which you can take away and apply to your own studies!</p>
+            </div>
+
+            <button class="accordion accordion-dark">How is <i>Professionals</i> different to <i>Fundamentals</i>?</button>
+            <div class="panel panel-dark">
+                <p><i>Fundamentals</i> teaches you how CFD codes work from first principles, using the finite volume method. If you are interested in how CFD codes actually work behind the scenes, then these are the courses for you. </p>
+
+                <p><i>Professionals</i> teaches you how to improve your existing CFD analyses, by using techniques like validation, mesh refinement and precise contour plots. If you are looking to improve your CFD analyses, then this is the course for you. </p>
+            </div>
+
+            <button class="accordion accordion-dark">What CFD code do I need for <i>Professionals</i>?</button>
+            <div class="panel panel-dark">
+                <p>For <i>Professionals</i> you need to have access to a CFD code and be familiar with using it. It does not matter what CFD code you use in this course (Fluent, OpenFOAM, CFX, Star CCM, SU2, Saturne are all fine), as the lessons can be applied to any CFD code. However, you do need to be able to use a CFD code and extract results from it! </p>
+            </div>
+
+            <button class="accordion accordion-dark">How difficult is the mathematics in this course?</button>
+            <div class="panel panel-dark">
+                <p>Overall, the level of mathematics in this course is low and will be suitable for any university/college level science, engineering, physics and mathematics students.</p>
+                <p> The specific mathematical techniques which are used in this course are: logarithms, exponentials and root finding algorithms (Bisection method, Newton-Raphson) etc. While it would be useful to understand and be able to implement root finding-algorithms yourself, Excel spreadsheets and Python source code are provided with the course. Hence, you do not need to be able to implement a root-finding algorithm yourself.</p>
+            </div>
+
+            <button class="accordion accordion-dark">I have a specific problem with ANSYS / OpenFOAM or Star CCM. Will the course solve my problem?</button>
+            <div class="panel panel-dark">
+                <p>The courses do not address troubleshooting / debugging issues with specific CFD codes. If you have a specific problem with your CFD code you should contact the code vendor (ANSYS, OpenFOAM, Siemens etc.) and ask for their help. This course cannot troubleshoot why your CFD simulation has diverged! </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Button to scroll to top -->
+    <button onclick="scrollToTop()" id="scrollTopButton" title="Go to top">Top</button>
+
+    <!-- footer -->
+    <footer class="centre bg-dark">
+        <p>Fluid Mechanics 101 &copy 2026</p>
+    </footer>
+
+    <!-- Render Blocking scripts and style sheets -->
+    <script type="text/javascript" src='../js/scrollButton.js'></script>
+    <script type="text/javascript" src='../js/scrollTopButton.js'></script>
+    <script type="text/javascript" src='../js/accordion.js'></script>
+    <div id="error-message"></div>
+    <script src="https://js.stripe.com/v3"></script>
+    <script type="text/javascript" src='../js/stripe.js'></script>
+
+</body>
+</html>
