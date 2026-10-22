@@ -116,6 +116,7 @@ h2.title,
     background-color: #4CAF50;
     color: #f4f4f4;
     border: none;
+    font-family: inherit;
 }
 
 .button:hover{
@@ -265,12 +266,6 @@ button.card {
     width: 100%;
 }
 
-.card-grid .card .text-block ul,
-.card-grid .card .text ul{
-    text-align: left;
-    display: inline-block;
-}
-
 .card-container{
     max-width: 60em;
     margin: auto;
@@ -294,18 +289,27 @@ button.card {
 
 .card-grid .card{
   box-shadow: 0em 0.125em 0.125em 0em  rgba(0,0,0,0.3);
+  background-color: #fff;
 }
 
-.card-grid .card .text{
-    padding: 0em 1.25em 0.625em 0em;
-}
-
-.card-grid .card .text h4{
+.card-grid .card .text,
+.card-grid .card .text-block {
+    padding: 1.25em;
     text-align: center;
 }
 
+.card-grid .card .text h4,
+.card-grid .card .text-block h4 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.card-grid .card .text-block ul,
 .card-grid .card .text ul{
-    margin-top: 0em;
+    text-align: left;
+    display: inline-block;
+    padding-left: 1.25em;
 }
 
 .card-click:hover{
@@ -326,9 +330,9 @@ button.card {
 .form-wrapper form{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    -webkit-column-gap:2em;
-    -moz- column-gap:2em;
-    column-gap:2em;
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    column-gap: 2em;
     padding-bottom: 1.5em;
 }
 
@@ -484,7 +488,8 @@ button.card {
     margin-top: 1.25em;
 }
 
-.half-image-right .button, .half-image-right .red-button{
+.half-image-right .button,
+.half-image-right .red-button{
     margin-top: 2.5em;
     margin-bottom: 2.5em;
 }
@@ -545,6 +550,7 @@ button.card {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 80%;
 }
 
 .pexels-image img{
@@ -585,7 +591,7 @@ button.card {
 }
 
 #scrollTopButton:hover {
-    background-color: #e2e2e2e2;
+    background-color: #e2e2e2;
     color: #2a3439;
     border: 0.125em solid #2a3439;
 }
@@ -593,21 +599,25 @@ button.card {
 /* Media Quries */
 @media(max-width: 560px){
 
-    .background{
+    .background {
         background-image: url("../img/backgroundBlank.svg");
     }
 
-    .background-content{
+    .background-content {
         width: 80%;
         text-align: center;
     }
 
-    .background-content .title, .container-half-image .title, .container-yt .title{
+    .background-content .title,
+    .container-half-image .title,
+    .container-yt .title {
         font-size: 2em;
         text-align: center;
     }
 
-    .background-content .text, .container-half-image .text, .container-yt .text{
+    .background-content .text,
+    .container-half-image .text,
+    .container-yt .text {
         font-size: 1.1em;
         text-align: center;
     }
@@ -639,7 +649,9 @@ button.card {
         padding: 2.0rem 5.0rem;
     }
 
-    .half-image-right, .container-yt, .pexels-block{
+    .half-image-right,
+    .container-yt,
+    .pexels-block {
         text-align: center;
     }
 
@@ -659,15 +671,18 @@ button.card {
         background-image: url("../img/backgroundBlank.svg");
     }
 
-    .grid3, .card-grid{
+    .grid-3, .card-grid{
         grid-template-columns: 1fr 1fr;
     }
 
-    .container-half-image, .container-yt{
+    .container-half-image,
+    .container-yt {
         grid-template-columns: 1fr;
     }
 
-    .container-half-image .title, .container-yt .title, .pexels-container .title{
+    .container-half-image.title,
+    .container-yt .title,
+    .pexels-container .title {
         font-size: 2em;
     }
 
@@ -675,7 +690,9 @@ button.card {
         font-size: 1.7em;
     }
 
-    .container-half-image .text, .container-yt .text, .pexels-container .text{
+    .container-half-image .text,
+    .container-yt .text,
+    .pexels-container .text {
         font-size: 1.1em;
     }
 
@@ -687,8 +704,9 @@ button.card {
 
 @media(min-width:720px) and (max-width:960px){
 
-
-    .container-half-image .title, .container-yt .title, .pexels-container .title{
+    .container-half-image .title,
+    .container-yt .title,
+    .pexels-container .title {
         font-size: 2.25em;
     }
 
@@ -696,12 +714,13 @@ button.card {
         font-size: 1.8em;
     }
 
-    .container-half-image .text,  .container-yt .text, .pexels-container .text{
+    .container-half-image .text,
+    .container-yt .text,
+    .pexels-container .text {
         font-size: 1.1em;
     }
 
     .pexels-block{
         top: 55%;
     }
-
 }
