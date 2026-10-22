@@ -26,14 +26,12 @@
     <header class="showcase">
         <div class="background background-download-error"></div>
         <div class="background-content">
-            <div class="title">
-                Payment Error
-            </div>
-            <div class = "text">
+            <h1 class="title">Payment Error</h1>
+            <p class = "text">
                 Sorry but there was an error with your payment.
-            </div>
-            <a href="shop.html" class = "button">Return to Courses</a>
-            <a href="lectures.html" class = "button">Return to Lectures</a>
+            </p>
+            <button href="shop.html" class = "button">Return to Courses</button>
+            <button href="lectures.html" class = "button">Return to Lectures</button>
         </div>
     </header>
 
@@ -41,6 +39,10 @@
     <footer class="centre bg-dark">
         <p>Fluid Mechanics 101 &copy 2026</p>
     </footer>
+
+    <!-- Stripe API -->
+    <div id="error-message"></div>
+    <script src="https://stripe.com"></script>
 
 </body>
 </html>

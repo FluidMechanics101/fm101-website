@@ -183,7 +183,7 @@
     <section class="bg-dark">
         <div class="container-accordion">
             <div class="accordion-title">
-                <h2 style="font-weight: normal">Frequently Asked Questions (FAQs)</h2>
+                <h2 class="title">Frequently Asked Questions (FAQs)</h2>
             </div>
 
             <button class="accordion accordion-dark">What is in <i>CFD for Professionals</i>?</button>
@@ -227,20 +227,26 @@
 
 
     <!-- Button to scroll to top -->
-    <button onclick="scrollToTop()" id="scrollTopButton" title="Go to top">Top</button>
+    <button
+      onclick="scrollToTop()"
+      id="scrollTopButton"
+      title="Go to top">
+      Top</button>
 
     <!-- footer -->
     <footer class="centre bg-dark">
         <p>Fluid Mechanics 101 &copy 2026</p>
     </footer>
 
-    <!-- Render Blocking scripts and style sheets -->
-    <script type="text/javascript" src='../js/scrollButton.js'></script>
-    <script type="text/javascript" src='../js/scrollTopButton.js'></script>
-    <script type="text/javascript" src='../js/accordion.js'></script>
+    <!-- Stripe API -->
     <div id="error-message"></div>
-    <script src="https://js.stripe.com/v3"></script>
-    <script type="text/javascript" src='../js/stripe.js'></script>
+    <script src="https://stripe.com"></script>
+
+    <!-- Render Blocking scripts and style sheets -->
+    <script src="../js/scrollButton.js" defer></script>
+    <script src="../js/scrollTopButton.js" defer></script>
+    <script src="../js/accordion.js" defer></script>
+    <script src="../js/stripe.js" defer></script>
 
 </body>
 </html>

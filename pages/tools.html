@@ -26,13 +26,11 @@
     <header class="showcase">
         <div class="background background-tools"></div>
         <div class="background-content">
-            <div class="title">
-                Calculators and Tools
-            </div>
-            <div class = "text">
+            <h1 class="title">Calculators and Tools</h1>
+            <p class = "text">
                 Browse a range of CFD calculators and tools
-            </div>
-            <a id = "scroll-down-button" class="button" onclick="scrollDown()">Browse</a>
+            </p>
+            <button id = "scroll-down-button" class="button" onclick="scrollDown()">Browse</button>
         </div>
     </header>
 
@@ -276,10 +274,14 @@
         <p>Fluid Mechanics 101 &copy 2026</p>
     </footer>
 
+    <!-- Stripe API -->
+    <div id="error-message"></div>
+    <script src="https://stripe.com"></script>
+
     <!-- Render Blocking scripts and style sheets -->
-    <script type="text/javascript" src='../js/scrollButton.js'></script>
-    <script type="text/javascript" src='../js/scrollTopButton.js'></script>
-    <script type="text/javascript" src='../js/calculator.js'></script>
+    <script src="../js/scrollButton.js" defer></script>
+    <script src="../js/scrollTopButton.js" defer></script>
+    <script src="../js/calculator.js" defer></script>
 
 </body>
 </html>

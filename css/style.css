@@ -40,7 +40,8 @@ body{
 
 /* Title */
 h1.title,
-h2.title {
+h2.title,
+.accordion-title .title {
     font-weight: normal;
 }
 

@@ -70,12 +70,20 @@
     </section>
 
     <!-- Button to scroll to top -->
-    <button onclick="scrollToTop()" id="scrollTopButton" title="Go to top">Top</button>
+    <button
+      onclick="scrollToTop()"
+      id="scrollTopButton"
+      title="Go to top">
+      Top</button>
 
     <!-- Footer -->
     <footer class="centre bg-dark">
         <p>Fluid Mechanics 101 &copy 2026</p>
     </footer>
+
+    <!-- Stripe API -->
+    <div id="error-message"></div>
+    <script src="https://stripe.com"></script>
 
     <!-- Render Blocking scripts and style sheets -->
     <script src="js/scrollButton.js" defer></script>
