@@ -252,6 +252,23 @@ footer{
 }
 
 /* Card grid */
+button.card {
+    background: transparent;
+    border: none;
+    font-family: inherit;
+    font-size: 1rem;
+    color: inherit;
+    cursor: pointer;
+    padding: 0;
+    display: block;
+    width: 100%;
+}
+
+.card-grid .card .text-block ul,
+.card-grid .card .text ul{
+    text-align: left;
+    display: inline-block;
+}
 
 .card-container{
     max-width: 60em;

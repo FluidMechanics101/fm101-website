@@ -25,65 +25,73 @@
     <header class="showcase">
         <div class="background background-courses bg-light"></div>
         <div class="background-content dark-font">
-            <div class="title">
-                Courses
-            </div>
-            <div class = "text">
+            <h1 class="title">Courses</h1>
+            <p class = "text">
                 From Differential Equations to Solution Algorithms. Behind the scenes of CFD.
-            </div>
-            <a id = "scroll-down-button" class="button" onclick="scrollDown()">Study Now</a>
+            </p>
+            <button
+              id="scroll-down-button"
+              class="button"
+              onclick="scrollDown()">Study Now</button>
         </div>
     </header>
 
     <!-- Cards -->
     <section class="bg-light">
         <div class="card-container card-grid">
-            <div class="card card-click" id="checkout-button-sku_FIr6L8bYAe6e2M" target="_blank" rel="noreferrer" role="link">
+          <!-- ****Change this from 'div' to 'button' interrupts styling -->
+            <button
+              class="card card-click"
+              id="checkout-button-sku_FIr6L8bYAe6e2M"
+              aria-label="Purchase Fundamentals 1 Course for £29.99">
                 <img src="../img/card-course1.svg" alt="Avatar">
-                <div class="text">
-                    <h4><b>Fundamentals 1</b></h4>
-                    <p class="centre">£29.99<p>
+                <span class="text-block">
+                    <h4>Fundamentals 1</h4>
+                    <p class="centre">£29.99</p>
                     <ul>
                         <li>Diffusion</li>
                         <li>Convection Diffusion</li>
                         <li>Upwinding</li>
                     </ul>
-                </div>
-            </div>
-            <div class="card card-click" target="_blank" rel="noreferrer" id="checkout-button-sku_FsoiQ4pqcEcxmY" role="link">
+                </span>
+            </button>
+            <button
+              class="card card-click"
+              id="checkout-button-sku_FsoiQ4pqcEcxmY"
+              aria-label="Purchase Fundamentals 2 Course for £29.99">
                 <img src="../img/card-course2.svg" alt="Avatar">
-                <div class="text">
-                    <h4><b>Fundamentals 2</b></h4>
-                    <p class="centre">£29.99<p>
+                <span class="text-block">
+                    <h4>Fundamentals 2</h4>
+                    <p class="centre">£29.99</p>
                     <ul>
                         <li>Boundary Conditions</li>
                         <li>2D Diffusion</li>
                         <li>Wall Functions</li>
                     </ul>
-                </div>
-            </div>
-            <div  class="card card-click" target="_blank" rel="noreferrer" id="checkout-button-sku_GejE4UfyblZ0Gg" role="link">
+                </span>
+            </button>
+            <button
+              class="card card-click"
+              id="checkout-button-sku_GejE4UfyblZ0Gg"
+              aria-label="Purchase Fundamentals 3 Course for £29.99">
                 <img src="../img/card-course3.svg" alt="Avatar">
-                <div class="text">
-                    <h4><b>Fundamentals 3</b></h4>
-                    <p class="centre">£29.99<p>
+                <span class="text-block">
+                    <h4>Fundamentals 3</h4>
+                    <p class="centre">£29.99</p>
                     <ul>
                         <li>Unstructured Meshes</li>
                         <li>Mesh Construction</li>
                         <li>Mesh Quality</li>
                     </ul>
-                </div>
-            </div>
+                </span>
+            </button>
         </div>
     </section>
 
     <!-- Text Below Cards -->
     <section class="bg-light">
-
         <div class="container-yt bg-light">
-            <div class="title">
-                CFD Fundamentals
-            </div>
+            <h2 class="title">CFD Fundamentals</h2>
             <div class = "text">
                 <p>
                 Our flagship courses show you how CFD codes really work. With simple examples that are developed from first principles, the courses allow you to see the matrices as they are assembled and solved using the finite volume method. A must-have for any CFD engineer. </p>
@@ -96,7 +104,7 @@
     <section class="bg-light">
         <div class="container-accordion">
             <div class="accordion-title">
-                <p>Frequently Asked Questions (FAQs)</p>
+                <h2 style="font-weight: normal">Frequently Asked Questions (FAQs)</h2>
             </div>
 
             <button class="accordion accordion-light">How do the courses work?</button>
@@ -118,13 +126,20 @@
 
             <button class="accordion accordion-light">I have a specific problem with ANSYS / OpenFOAM or Star CCM. Will the course solve my problem?</button>
             <div class="panel panel-light">
-                <p>The courses do not address troubleshooting / debugging issues with specific CFD codes. The course provides a general background for the finite volume method and how CFD codes work. If you have a specific problem with your CFD code you should contact the code vendor (ANSYS, OpenFOAM, Siemens etc.) and ask for their help. This course cannot troubleshoot why your CFD simulation has diverged! </p>
+                <p>The courses do not address troubleshooting / debugging issues with specific CFD codes. The course provides a general background for the finite volume method and how CFD codes work. If you have a specific problem with your CFD code you should contact the code vendor (ANSYS, OpenFOAM, Siemens etc.) and ask for their help. This course cannot troubleshoot why your CFD simulation has diverged!</p>
             </div>
 
             <button class="accordion accordion-light">Can I get a free trial?</button>
             <div class="panel panel-light">
-                <p>Not sure if the courses are right for you? Get a free trial version of Fundamentals 1. </p>
-                <a href="../pdf/fundamentalsCourseTrialVersion.zip" download target="_blank" rel="noreferrer" class="download-button"><img src="../img/downloadSymbol.svg" alt = "Download Link"> Download Free Trial</a>
+                <p>Not sure if the courses are right for you? Get a free trial version of Fundamentals 1.</p>
+                <a
+                  href="../pdf/fundamentalsCourseTrialVersion.zip"
+                  download target="_blank"
+                  rel="noreferrer"
+                  class="download-button">
+                <img
+                  src="../img/downloadSymbol.svg"
+                  alt = "Download Link">Download Free Trial</a>
                 <p></p>
             </div>
         </div>
@@ -134,18 +149,21 @@
     <section class="bg-dark">
         <div class="container-half-image grid-2">
             <div>
-                <img class="half-image" src="../img/professionals.png" alt="full-image">
+                <img
+                  class="half-image"
+                  src="../img/professionals.png"
+                  alt="Image of Professionals Course">
             </div>
 
             <div class="vertical-mid-align">
                 <div class="half-image-right">
-                    <div class="title">
-                        CFD for Professionals
-                    </div>
-                    <div class = "text">
+                    <h2 class="title">CFD for Professionals</h2>
+                    <p class="text">
                         Our premium course. For the professionals.
-                    </div>
-                    <a class="red-button" target="_blank" rel="noreferrer" id="checkout-button-sku_J3j1n9kyHkC8uy" role="link">Buy Now</a>
+                    </p>
+                    <button
+                      class="red-button"
+                      id="checkout-button-sku_J3j1n9kyHkC8uy">Buy Now</button>
                 </div>
             </div>
         </div>
@@ -153,14 +171,11 @@
 
     <!-- Text below Professionals -->
     <section class="bg-dark">
-
         <div class="container-yt bg-dark">
-            <div class="title">
-                CFD for Professionals
-            </div>
-            <div class = "text">
+            <h2 class="title">CFD for Professionals</h2>
+            <p class="text">
                 Make your work stand out from other CFD engineers. Learn techniques that can signifcicantly improve the quality of your thesis, academic papers and technical reports. This course does not teach you how to carry out CFD analyses, but how to master your results and excel at presenting them.
-            </div>
+            </p>
         </div>
     </section>
 
@@ -168,7 +183,7 @@
     <section class="bg-dark">
         <div class="container-accordion">
             <div class="accordion-title">
-                <p>Frequently Asked Questions (FAQs)</p>
+                <h2 style="font-weight: normal">Frequently Asked Questions (FAQs)</h2>
             </div>
 
             <button class="accordion accordion-dark">What is in <i>CFD for Professionals</i>?</button>
