@@ -1,19 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136009061-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-136009061-1');
-    </script>
-
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Learn Computational Fluid Dynamics (CFD). Discover key equations and references used by popular CFD codes">
-    <meta name="keywords" content="Fluid Mechanics 101, CFD, OpenFOAM, ANSYS, ANSYS Fluent, SIMPLE Algorithm, Lectures, Calculators"></head>
+    <meta name="keywords" content="Fluid Mechanics 101, CFD, OpenFOAM, ANSYS, ANSYS Fluent, SIMPLE Algorithm, Lectures, Calculators">
     <meta name="theme-color" content="#f4f4f4">
     <meta name="title" content="Fluid Mechanics 101">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -22,8 +13,7 @@
 <body>
 
     <!-- Nav Bar -->
-
-    <nav class = "main-nav">
+    <nav class="main-nav">
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="pages/shop.html">Courses</a></li>
@@ -33,17 +23,12 @@
     </nav>
 
     <!-- Header -->
-
     <header class="showcase">
         <div class="background background-main"></div>
         <div class="background-content">
-            <div class="title">
-                Fluid Mechanics 101
-            </div>
-            <div class = "text">
-                Learn the fundamentals of Computational Fluid Dynamics
-            </div>
-            <a id = "scroll-down-button" class="button" onclick="scrollDown()">Discover More</a>
+            <h1 class="title"> Fluid Mechanics 101</h1>
+            <p class = "text">Learn the fundamentals of Computational Fluid Dynamics</p>
+            <button id = "scroll-down-button" class="button" onclick="scrollDown()">Discover More</button>
         </div>
     </header>
 
@@ -51,17 +36,15 @@
     <section class="bg-light">
         <div class="container-half-image grid-2">
             <div>
-                <img class="half-image" src="img/carbonHalf.svg" alt="full-image">
+                <img class="half-image" src="img/carbonHalf.svg" alt="Screenshot of CFD Fundamentals Course">
             </div>
 
             <div class="vertical-mid-align">
                 <div class="half-image-right">
-                    <div class="title">
-                        Courses
-                    </div>
-                    <div class = "text">
+                    <h2 class="title">Courses</h2>
+                    <p class = "text">
                         Develop your own CFD codes using our flagship courses
-                    </div>
+                    </p>
                     <a class="button" href="pages/shop.html">Discover Now</a>
                 </div>
             </div>
@@ -71,15 +54,13 @@
 
     <!-- Lectures -->
     <section class="bg-dark">
-        <div class='pexels-container pexels-image'>
-            <img src="img/pexels.jpg" alt="lecture">
+        <div class="pexels-container pexels-image">
+            <img src="img/pexels.jpg" alt="CFD lectures from YouTube">
             <div class="pexels-block">
-                <div class="title">
-                    Lectures
-                </div>
-                <div class = "text">
+                <h2 class="title">Lectures</h2>
+                <p class = "text">
                     Learn advanced algorithms used by modern CFD codes
-                </div>
+                </p>
                 <a class="button" href="pages/lectures.html">Discover Now</a>
             </div>
         </div>
@@ -94,8 +75,8 @@
     </footer>
 
     <!-- Render Blocking scripts and style sheets -->
-    <script type="text/javascript" src='js/scrollButton.js'></script>
-    <script type="text/javascript" src='js/scrollTopButton.js'></script>
+    <script src="js/scrollButton.js" defer></script>
+    <script src="js/scrollTopButton.js" defer></script>
 
 </body>
 </html>

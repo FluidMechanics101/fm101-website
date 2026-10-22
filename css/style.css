@@ -38,7 +38,13 @@ body{
     color: #4CAF50;
 }
 
-/* Background image and title */
+/* Title */
+h1.title,
+h2.title {
+    font-weight: normal;
+}
+
+/* Background image */
 .background{
     height: 100vh;
     width: 100%;
