@@ -263,7 +263,13 @@ a.card {
     cursor: pointer;
     padding: 0;
     display: block;
-    width: 100%;
+    width: 100%
+    text-decoration: none;
+}
+
+a.card,
+a.card * {
+    text-decoration: none;
 }
 
 .card-container{
@@ -296,6 +302,7 @@ a.card {
 .card-grid .card .text-block {
     padding: 1.25em;
     text-align: center;
+    display: block;
 }
 
 .card-grid .card .text h4,
