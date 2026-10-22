@@ -13,7 +13,6 @@
 <body>
 
     <!-- Nav Bar -->
-
     <nav class = "main-nav">
         <ul>
             <li><a href="../index.html">Home</a></li>
@@ -27,102 +26,173 @@
         <div class="background background-tools"></div>
         <div class="background-content">
             <h1 class="title">Calculators and Tools</h1>
-            <p class = "text">
+            <p class="text">
                 Browse a range of CFD calculators and tools
             </p>
-            <button id = "scroll-down-button" class="button" onclick="scrollDown()">Browse</button>
+            <button
+              id="scroll-down-button"
+              class="button"
+              onclick="scrollDown()">
+              Browse</button>
         </div>
     </header>
 
     <section class="bg-light">
         <div class="card-container card-grid">
-            <div class="card card-click" onclick="scrollToSection('firstCellHeightSection')">
-                <img src="../img/firstCellHeight.svg" alt="Avatar">
+            <button
+              class="card card-click"
+              aria-label="Scroll to Inflation Layers calculator"
+              onclick="scrollToSection('firstCellHeightSection')">
+                <img
+                  src="../img/firstCellHeight.svg"
+                  alt="Inflation layer image">
                 <div class="text">
-                    <h4><b>Inflation Layers</b></h4>
+                    <h4>Inflation Layers</h4>
                 </div>
-            </div>
-            <div class="card card-click" onclick="scrollToSection('inletTurbulenceSection')">
-                <img src="../img/turbulenceInlet.svg" alt="Avatar">
+            </button>
+            <button
+              class="card card-click"
+              aria-label="Scroll to Turbulence calculator"
+              onclick="scrollToSection('inletTurbulenceSection')">
+                <img
+                  src="../img/turbulenceInlet.svg"
+                  alt="Turbulence inlet image">
                 <div class="text">
-                    <h4><b>Inlet Turbulence</b></h4>
+                    <h4>Inlet Turbulence</h4>
                 </div>
-            </div>
-            <div class="card card-click" onclick="scrollToSection('particleSettlingSection')">
-                <img src="../img/particleSettling.svg" alt="Avatar">
+            </button>
+            <button
+              class="card card-click"
+              aria-label="Scroll to Particle settling calculator"
+              onclick="scrollToSection('particleSettlingSection')">
+                <img
+                  src="../img/particleSettling.svg"
+                  alt="Particle settling image">
                 <div class="text">
-                    <h4><b>Particle Settling</b></h4>
+                    <h4>Particle Settling</h4>
                 </div>
-            </div>
-            <div class="card card-click" onclick ="scrollToSection('humiditySection')">
-                <img src="../img/humidity.svg" alt="Avatar">
+            </button>
+            <button
+              class="card card-click"
+              aria-label="Scroll to Humidity calculator"
+              onclick="scrollToSection('humiditySection')">
+                <img
+                  src="../img/humidity.svg"
+                  alt="Humidity measurement image">
                 <div class="text">
-                    <h4><b>Humidity</b></h4>
+                    <h4>Humidity</h4>
                 </div>
-            </div>
-            <div class="card card-click" onclick ="scrollToSection('howItWorksSection')">
-                <img src="../img/howDoesItWork.svg" alt="Avatar">
+            </button>
+            <button
+              class="card card-click"
+              aria-label="Scroll to explanation document"
+              onclick="scrollToSection('howItWorksSection')">
+                <img
+                  src="../img/howDoesItWork.svg"
+                  alt="How do the calculators work image">
                 <div class="text">
-                    <h4><b>How Do They Work?</b></h4>
+                    <h4>How Do They Work?</h4>
                 </div>
-            </div>
+            </button>
         </div>
     </section>
 
     <!-- Calculators -->
     <section>
         <div class="container-slim centre bg-dark dotted-border-bottom" id="firstCellHeightSection">
-            <img class="half-image" src="../img/firstCellHeightDiagram.svg" alt="cell-height-image">
+            <img
+              class="half-image"
+              src="../img/firstCellHeightDiagram.svg"
+              alt="cell-height-image">
             <div class="form-header">
                 <h2>Inflation Layer Calculator</h2>
                 <p>Estimate the height of the first cell in the inflation layer to achieve a target y<sup>+</sup> value and the maximum growth ratio for the inflation layers to cover the boundary layer thickness. Default values for air at 10 m/s, over a 1m long flat plate are provided, with 20 inflation layers.</p>
             </div>
             <div class="form-wrapper">
-                <form name="cellHeightCalculatorForm" id="cellHeightCalculatorForm" onsubmit="return false">
+                <form
+                  name="cellHeightCalculatorForm"
+                  id="cellHeightCalculatorForm"
+                  onsubmit="return false">
                     <p>
                         <label>Velocity (m/s)</label>
-                        <input type="text" name="flowVelocity" placeholder="10.0">
+                        <input
+                          type="text"
+                          name="flowVelocity"
+                          placeholder="10.0">
                     </p>
                     <p>
                         <label>Length Scale (m)</label>
-                        <input type="text" name="lengthScale" placeholder="1.0">
+                        <input
+                          type="text"
+                          name="lengthScale"
+                          placeholder="1.0">
                     </p>
                     <p>
                         <label>Viscosity (Pa s)</label>
-                        <input type="text" name="dynamicViscosity" placeholder="1.81e-5">
+                        <input
+                          type="text"
+                          name="dynamicViscosity"
+                          placeholder="1.81e-5">
                     </p>
                     <p>
                         <label>Density (kg/m3)</label>
-                        <input type="text" name="density" placeholder="1.225">
+                        <input
+                          type="text"
+                          name="density"
+                          placeholder="1.225">
                     </p>
                     <p>
                         <label>Target y<sup>+</sup> (-)</label>
-                        <input type="text" name="yPlus" placeholder="1.0">
+                        <input
+                          type="text"
+                          name="yPlus"
+                          placeholder="1.0">
                     </p>
                     <p>
                         <label>Layers (-)</label>
-                        <input type="text" name="layers" placeholder="20">
+                        <input
+                          type="text"
+                          name="layers"
+                          placeholder="20">
                     </p>
                     <p class="full">
-                        <button id = "submitbutton" name="calculatebutton" class="button" type="submit" onClick="cellHeight(this.form)">Calculate</button>
+                        <button
+                          id="submitbutton"
+                          name="calculatebutton"
+                          class="button"
+                          type="submit"
+                          onClick="cellHeight(this.form)">
+                          Calculate</button>
                     </p>
                     <p>
                         <label>First Layer (m)</label>
-                        <input type ="text" name="yH" placeholder="-- Calculated --"></input>
+                        <input
+                          type="text"
+                          name="yH"
+                          placeholder="-- Calculated --" readonly>
                     </p>
                     <p>
                         <label>Final Layer (m)</label>
-                        <input type ="text" name="finalLayer" placeholder="-- Calculated --"></input>
+                        <input
+                          type="text"
+                          name="finalLayer"
+                          placeholder="-- Calculated --" readonly>
                     </p>
 
                     <p>
                         <label>&#948;<sub>99</sub> (m)</label>
-                        <input type ="text" name="delta99" placeholder="-- Calculated --"></input>
+                        <input
+                          type="text"
+                          name="delta99"
+                          placeholder="-- Calculated --" readonly>
                     </p>
 
                     <p>
                         <label>Max. Growth Ratio (-)</label>
-                        <input type ="text" name="growthRatio" placeholder="-- Calculated --"></input>
+                        <input
+                          type="text"
+                          name="growthRatio"
+                          placeholder="-- Calculated --" readonly>
                     </p>
                 </form>
             </div>
@@ -136,33 +206,60 @@
                 <p>For a given temperature, pressure and relative humidity, compute the specific humidity (mass of water vapour per unit mass of dry air), absolute humidity (mass of water vapour per unit mass of air-water vapour mixture) and mass fraction of water vapour. Default values for air at room temperature (25&#176;C), pressure (101325 Pa) and a relative humidity of 0.6 are provided.</p>
             </div>
             <div class="form-wrapper">
-                <form name="humidityCalculatorForm" id="humidityCalculatorForm" onsubmit="return false">
+                <form
+                  name="humidityCalculatorForm"
+                  id="humidityCalculatorForm"
+                  onsubmit="return false">
                     <p>
                         <label>Temp (&#176;C)</label>
-                        <input type="text" name="temperature" placeholder="25.0">
+                        <input
+                          type="text"
+                          name="temperature"
+                          placeholder="25.0">
                     </p>
                     <p>
                         <label>Pressure (Pa)</label>
-                        <input type="text" name="pressure" placeholder="101325">
+                        <input
+                          type="text"
+                          name="pressure"
+                          placeholder="101325">
                     </p>
                     <p>
                         <label>Rel. Hum. (-)</label>
-                        <input type="text" name="relativeHumidity" placeholder="0.6">
+                        <input
+                          type="text"
+                          name="relativeHumidity"
+                          placeholder="0.6">
                     </p>
                     <p class="full">
-                        <button id = "submitbutton" name="calculatebutton" class="button" type="submit" onClick="humidity(this.form)">Calculate</button>
+                        <button
+                          id="submitbutton"
+                          name="calculatebutton"
+                          class="button"
+                          type="submit"
+                          onClick="humidity(this.form)">
+                          Calculate</button>
                     </p>
                     <p>
                         <label>Spec. Hum. (kg/kg)</label>
-                        <input type ="text" name="specificHumidity" placeholder="-- Calculated --"></input>
+                        <input
+                          type="text"
+                          name="specificHumidity"
+                          placeholder="-- Calculated --" readonly>
                     </p>
                     <p>
                         <label>Abs. Hum. (kg/kg)</label>
-                        <input type ="text" name="absoluteHumidity" placeholder="-- Calculated --"></input>
+                        <input
+                          type="text"
+                          name="absoluteHumidity"
+                          placeholder="-- Calculated --" readonly>
                     </p>
                     <p>
                         <label>Mass Frac. (-)</label>
-                        <input type ="text" name="massFraction" placeholder="-- Calculated --"></input>
+                        <input
+                          type="text"
+                          name="massFraction"
+                          placeholder="-- Calculated --" readonly>
                     </p>
                 </form>
             </div>
@@ -176,37 +273,67 @@
                 <p>For a given freestream turbulence intensity and length scale, compute the inlet values of turbulent kinetic energy (k), turbulence dissipation rate (&#949;), specific dissipation rate (&#969;) and turbulent kinematic viscosity (&#957;<sub>t</sub>). Default values for a flow at 10 m/s, with an intensity of 5% are shown. </p>
             </div>
             <div class="form-wrapper">
-                <form name="cellHeightCalculatorForm" id="cellHeightCalculatorForm" onsubmit="return false">
+                <form
+                  name="turbulenceCalculatorForm"
+                  id="turbulenceCalculatorForm"
+                  onsubmit="return false">
                     <p>
                         <label>Velocity (m/s)</label>
-                        <input type="text" name="flowVelocity" placeholder="10.0">
+                        <input
+                          type="text"
+                          name="flowVelocity"
+                          placeholder="10.0">
                     </p>
                     <p>
                         <label>Intensity (%)</label>
-                        <input type="text" name="intensity" placeholder="5.0">
+                        <input
+                          type="text"
+                          name="intensity"
+                          placeholder="5.0">
                     </p>
                     <p>
                         <label>Length Scale (m)</label>
-                        <input type="text" name="lengthScale" placeholder="0.1">
+                        <input
+                          type="text"
+                          name="lengthScale"
+                          placeholder="0.1">
                     </p>
                     <p class="full">
-                        <button id = "submitbutton" name="calculatebutton" class="button" type="submit" onClick="turbulence(this.form)">Calculate</button>
+                        <button
+                          id="submitbutton"
+                          name="calculatebutton"
+                          class="button"
+                          type="submit"
+                          onClick="turbulence(this.form)">
+                          Calculate</button>
                     </p>
                     <p>
                         <label>k (m<sup>2</sup>/s<sup>2</sup>)</label>
-                        <input type ="text" name="k" placeholder="-- Calculated --"></input>
+                        <input
+                          type="text"
+                          name="k"
+                          placeholder="-- Calculated --">
                     </p>
                     <p>
                         <label>&#969; (s<sup>-1</sup>)</label>
-                        <input type ="text" name="omega" placeholder="-- Calculated --"></input>
+                        <input
+                          type="text"
+                          name="omega"
+                          placeholder="-- Calculated --" readonly>
                     </p>
                     <p>
                         <label>&#949; (m<sup>2</sup>/s<sup>3</sup>)</label>
-                        <input type ="text" name="epsilon" placeholder="-- Calculated --"></input>
+                        <input
+                          type="text"
+                          name="epsilon"
+                          placeholder="-- Calculated --" readonly>
                     </p>
                     <p>
                         <label>&#957;<sub>t</sub> (m<sup>2</sup>/s)</label>
-                        <input type ="text" name="nut" placeholder="-- Calculated --"></input>
+                        <input
+                          type="text"
+                          name="nut"
+                          placeholder="-- Calculated --" readonly>
                     </p>
                 </form>
             </div>
@@ -220,14 +347,23 @@
                 <p>Calculate the terminal settling velocity of a spherical particle falling under gravity in a viscous fluid. Default values for a 100 micron sand particle in water are provided.</p>
             </div>
             <div class="form-wrapper">
-                <form name="settlingVelocityCalculatorForm" id="settlingVelocityCalculatorForm" onsubmit="return false">
+                <form
+                  name="settlingVelocityCalculatorForm"
+                  id="settlingVelocityCalculatorForm"
+                  onsubmit="return false">
                     <p>
                         <label>Diameter (m)</label>
-                        <input type="text" name="diameter" placeholder="100e-6">
+                        <input
+                          type="text"
+                          name="diameter"
+                          placeholder="100e-6">
                     </p>
                     <p>
                         <label>Density (kg/m3)</label>
-                        <input type="text" name="particleDensity" placeholder="1550">
+                        <input
+                          type="text"
+                          name="particleDensity"
+                          placeholder="1550">
                     </p>
                     <p>
                         <label>Fluid</label>
@@ -237,19 +373,34 @@
                              </select>
                     </p>
                     <p class="full">
-                        <button id = "submitbutton" name="calculatebutton" class="button" type="submit" onClick="particleSettling(this.form)">Calculate</button>
+                        <button
+                          id="submitbutton"
+                          name="calculatebutton"
+                          class="button"
+                          type="submit"
+                          onClick="particleSettling(this.form)">
+                          Calculate</button>
                     </p>
                     <p>
                         <label>Re (-)</label>
-                        <input type ="text" name="reynoldsNumber" placeholder="-- Calculated --"></input>
+                        <input
+                          type="text"
+                          name="reynoldsNumber"
+                          placeholder="-- Calculated --" readonly>
                     </p>
                     <p>
                         <label>C<sub>D</sub> (-)</label>
-                        <input type ="text" name="cd" placeholder="-- Calculated --"></input>
+                        <input
+                          type="text"
+                          name="cd"
+                          placeholder="-- Calculated --" readonly>
                     </p>
                     <p>
                         <label>Velocity (m/s)</label>
-                        <input type ="text" name="settlingVelocity" placeholder="-- Calculated --"></input>
+                        <input
+                          type="text"
+                          name="settlingVelocity"
+                          placeholder="-- Calculated --" readonly>
                     </p>
                 </form>
             </div>
@@ -262,12 +413,24 @@
                 <h2>How do the calculators work?</h2>
                 <p>Before using these calculators, it should be emphasised that unverified sources of information on the internet should not be trusted or relied upon. The calculators themselves (and the equations they use) <b>have not been verified or checked</b> and are likely to contain errors. Hence, if you want to use the calculators or methods in the calculators yourself, you should check the original sources and equations themselves and implement them yourself in your own work (and follow the verification and validation processes adopted by your company / institution). The calculators use a series of empirical correlations to obtain an engineering estimate of the quantities of interest. The calculators are for educational and demonstrative purposes only and should not be used to analyse, design, accredit or validate real scientific / engineering / mathematical structures and flow systems. For such applications, appropriate trained, qualified and accredited (SQEP) engineers / scientists should be consulted along with the appropriate documentation and engineering standards. Fluid Mechanics 101 and Dr. Aidan Wimshurst are not accountable or liable in any form for the use or misuse of the calculators beyond the specific educational and demonstrative purposes for which they were intended. </p>
             </div>
-            <a href="../pdf/calculators.pdf" download target="_blank" rel="noreferrer" class="download-button"><img src="../img/pdfSymbol.svg" alt = "Download Link">Read PDF</a>
+            <a
+              href="../pdf/calculators.pdf"
+              download_target="_blank"
+              rel="noreferrer"
+              class="download-button">
+              <img
+                src="../img/pdfSymbol.svg"
+                alt="Download Link">
+              Read PDF</a>
         </div>
     </section>
 
     <!-- Button to scroll to top -->
-    <button onclick="scrollToTop()" id="scrollTopButton" title="Go to top">Top</button>
+    <button
+      onclick="scrollToTop()"
+      id="scrollTopButton"
+      title="Go to top">
+      Top</button>
 
     <!-- footer -->
     <footer class="centre bg-dark">
