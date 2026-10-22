@@ -2,24 +2,24 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="600"
    height="380"
    viewBox="0 0 158.75 100.54167"
    version="1.1"
    id="svg10576"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
    sodipodi:docname="card-lecture-notes4.svg"
    inkscape:export-filename="C:\Users\user\Documents\Youtube\stripe\sku_images\youtube_lecture31_40\lectureSlides31_40.png"
    inkscape:export-xdpi="199.9088"
-   inkscape:export-ydpi="199.9088">
+   inkscape:export-ydpi="199.9088"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs10570">
     <marker
@@ -2763,15 +2763,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="202.78977"
-     inkscape:cy="314.47112"
+     inkscape:zoom="0.92708405"
+     inkscape:cx="273.43799"
+     inkscape:cy="237.30319"
      inkscape:document-units="mm"
      inkscape:current-layer="g4520"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -2785,7 +2785,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2815,7 +2814,7 @@
          y="253.41029" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:24.74327469px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#2a3439;fill-opacity:1;stroke:none;stroke-width:0.26510644"
+         style="font-style:normal;font-weight:normal;font-size:24.7433px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#2a3439;fill-opacity:1;stroke:none;stroke-width:0.265106"
          x="-232.60484"
          y="237.01694"
          id="text5265"><tspan
@@ -2823,7 +2822,7 @@
            sodipodi:role="line"
            x="-232.60484"
            y="237.01694"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#2a3439;fill-opacity:1;stroke-width:0.26510644">Large Eddy Simulation</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';fill:#2a3439;fill-opacity:1;stroke-width:0.265106">Large Eddy Simulation</tspan></text>
       <rect
          y="338.18146"
          x="-99.814674"
@@ -2853,13 +2852,13 @@
       <text
          transform="rotate(-90)"
          id="text5277"
-         y="-189.55447"
+         y="-186.77802"
          x="-344.30417"
-         style="font-style:normal;font-weight:normal;font-size:8.25534344px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#2a3439;fill-opacity:1;stroke:none;stroke-width:0.57460797;"
+         style="font-style:normal;font-weight:normal;font-size:8.25534px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#2a3439;fill-opacity:1;stroke:none;stroke-width:0.574608"
          xml:space="preserve"><tspan
            id="tspan5275"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';stroke-width:0.57460797;fill:#2a3439;fill-opacity:1;"
-           y="-189.55447"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';fill:#2a3439;fill-opacity:1;stroke-width:0.574608"
+           y="-186.77802"
            x="-344.30417"
            sodipodi:role="line">Kinetic Energy Density</tspan></text>
       <path
@@ -2901,16 +2900,16 @@
          id="text5293"
          y="308.60599"
          x="-144.20558"
-         style="font-style:normal;font-weight:normal;font-size:7.56739902px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#2a3439;fill-opacity:1;stroke:none;stroke-width:0.26510644;"
+         style="font-style:normal;font-weight:normal;font-size:7.5674px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#2a3439;fill-opacity:1;stroke:none;stroke-width:0.265106"
          xml:space="preserve"><tspan
            id="tspan5291"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';stroke-width:0.26510644;fill:#2a3439;fill-opacity:1;"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';fill:#2a3439;fill-opacity:1;stroke-width:0.265106"
            y="308.60599"
            x="-144.20558"
            sodipodi:role="line">80%</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:7.56739902px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#2a3439;fill-opacity:1;stroke:none;stroke-width:0.26510644;"
+         style="font-style:normal;font-weight:normal;font-size:7.5674px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#2a3439;fill-opacity:1;stroke:none;stroke-width:0.265106"
          x="-85.459938"
          y="324.60068"
          id="text5297"><tspan
@@ -2918,17 +2917,17 @@
            sodipodi:role="line"
            x="-85.459938"
            y="324.60068"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';stroke-width:0.26510644;fill:#2a3439;fill-opacity:1;">20%</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';fill:#2a3439;fill-opacity:1;stroke-width:0.265106">20%</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:8.25534344px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#2a3439;fill-opacity:1;stroke:none;stroke-width:0.57460797;"
-         x="-69.52491"
+         style="font-style:normal;font-weight:normal;font-size:8.25534px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#2a3439;fill-opacity:1;stroke:none;stroke-width:0.574608"
+         x="-72.301384"
          y="350.34433"
          id="text5301"><tspan
            sodipodi:role="line"
-           x="-69.52491"
+           x="-72.301384"
            y="350.34433"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';stroke-width:0.57460797;fill:#2a3439;fill-opacity:1;"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';fill:#2a3439;fill-opacity:1;stroke-width:0.574608"
            id="tspan5299">Wavenumber</tspan></text>
     </g>
   </g>
@@ -4422,24 +4421,22 @@
         </g>
         <text
            id="text16876"
-           style="font-variant:normal;font-weight:bold;font-size:26.00000191px;font-family:'CMU Sans Serif';-inkscape-font-specification:CMUSansSerif-Bold;writing-mode:lr-tb;fill:#002147;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           transform="matrix(1,0,0,-1,85.34097,165.49541)">
-          <tspan
+           style="font-variant:normal;font-weight:bold;font-size:26px;font-family:'CMU Sans Serif';-inkscape-font-specification:CMUSansSerif-Bold;writing-mode:lr-tb;fill:#002147;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,85.34097,165.49541)"
+           y="0"><tspan
              id="tspan16874"
              sodipodi:role="line"
              y="0"
-             x="0 18.278002 32.578003 55.094006 69.680008 84.266006 94.770004 108.42001 118.92401 125.55401 139.854 154.44002 168.09001 174.79802 184.34001 200.22601 206.85602 221.44202 228.07202 242.65802 252.20001 272.92203 285.92203 300.50803 314.15802 336.67401 343.30402 356.01804">Computational Fluid Dynamics</tspan>
-        </text>
+             x="0 18.278002 32.578003 55.094006 69.680008 84.266006 94.770004 108.42001 118.92401 125.55401 139.854 154.44002 168.09001 174.79802 184.34001 200.22601 206.85602 221.44202 228.07202 242.65802 252.20001 272.92203 285.92203 300.50803 314.15802 336.67401 343.30402 356.01804">Computational Fluid Dynamics</tspan></text>
         <text
            id="text16880"
-           style="font-variant:normal;font-weight:bold;font-size:26.00000572px;font-family:'CMU Sans Serif';-inkscape-font-specification:CMUSansSerif-Bold;writing-mode:lr-tb;fill:#002147;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           transform="matrix(1,0,0,-1,85.34097,121.996)">
-          <tspan
+           style="font-variant:normal;font-weight:bold;font-size:26px;font-family:'CMU Sans Serif';-inkscape-font-specification:CMUSansSerif-Bold;writing-mode:lr-tb;fill:#002147;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,85.34097,121.996)"
+           y="0"><tspan
              id="tspan16878"
              sodipodi:role="line"
              y="0"
-             x="0 15.080003 29.666006 44.25201 58.838013 72.488014 95.004021 108.29002 122.87602 133.38002 147.03003 153.66003 164.63203 174.17403 192.45204 206.75204 221.33804 231.01004 241.98204 255.26805 264.81006">Fundamentals Course 2</tspan>
-        </text>
+             x="0 15.080003 29.666006 44.25201 58.838013 72.488014 95.004021 108.29002 122.87602 133.38002 147.03003 153.66003 164.63203 174.17403 192.45204 206.75204 221.33804 231.01004 241.98204 255.26805 264.81006">Fundamentals Course 2</tspan></text>
       </g>
     </g>
   </g>

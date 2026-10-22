@@ -7,7 +7,7 @@
    viewBox="0 0 158.75 100.54167"
    version="1.1"
    id="svg10576"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
    sodipodi:docname="card-lecture-notes5.svg"
    inkscape:export-filename="C:\Users\user\Documents\Youtube\stripe\sku_images\youtube_lecture31_40\lectureSlides31_40.png"
    inkscape:export-xdpi="199.9088"
@@ -2760,15 +2760,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="48.992399"
-     inkscape:cy="170.2107"
+     inkscape:zoom="1.2201518"
+     inkscape:cx="333.15526"
+     inkscape:cy="169.65102"
      inkscape:document-units="mm"
-     inkscape:current-layer="g4520"
+     inkscape:current-layer="g4684"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -2782,7 +2782,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2817,25 +2816,25 @@
         <text
            id="text2660"
            y="235.53206"
-           x="89.649078"
-           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#d01d3e;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="108.19044"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#d01d3e;fill-opacity:1;stroke:none;stroke-width:0.264583"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#d01d3e;fill-opacity:1;stroke-width:0.264583"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#d01d3e;fill-opacity:1;stroke-width:0.264583"
              y="235.53206"
-             x="89.649078"
+             x="108.19044"
              id="tspan2658"
              sodipodi:role="line">Sub-grid</tspan></text>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#d01d3e;fill-opacity:1;stroke:none;stroke-width:0.264583"
-           x="94.908585"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#d01d3e;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="107.98373"
            y="248.23183"
            id="text2664"><tspan
              sodipodi:role="line"
              id="tspan2662"
-             x="94.908585"
+             x="107.98373"
              y="248.23183"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#d01d3e;fill-opacity:1;stroke-width:0.264583">Stress</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#d01d3e;fill-opacity:1;stroke-width:0.264583">Stress</tspan></text>
         <path
            style="fill:none;stroke:#d01d3e;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            d="m 93.262296,216.87868 v 4.3268 h 29.623744 v -4.56717"
@@ -2851,15 +2850,15 @@
            y="237.59286" />
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0066ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-           x="195.80579"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#0066ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="213.55339"
            y="248.76105"
            id="text2682"><tspan
              sodipodi:role="line"
              id="tspan2680"
-             x="195.80579"
+             x="213.55339"
              y="248.76105"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#0066ff;fill-opacity:1;stroke-width:0.264583">Why 2?</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#0066ff;fill-opacity:1;stroke-width:0.264583">Why 2?</tspan></text>
         <path
            style="fill:none;stroke:#0066ff;stroke-width:0.79375;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2004)"
            d="M 213.51331,237.60467 V 216.21105"
@@ -2875,12 +2874,12 @@
         <text
            id="text2010"
            y="248.76105"
-           x="148.3315"
-           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#0066ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="155.74864"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#0066ff;fill-opacity:1;stroke:none;stroke-width:0.264583"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#0066ff;fill-opacity:1;stroke-width:0.264583"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#0066ff;fill-opacity:1;stroke-width:0.264583"
              y="248.76105"
-             x="148.3315"
+             x="155.74864"
              id="tspan2008"
              sodipodi:role="line">???</tspan></text>
         <path
@@ -2996,16 +2995,16 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:24.8503px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#2a3439;fill-opacity:1;stroke:none;stroke-width:0.266253"
-         x="-242.69341"
+         style="font-style:normal;font-weight:normal;font-size:24.8503px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#2a3439;fill-opacity:1;stroke:none;stroke-width:0.266253"
+         x="-114.98626"
          y="233.91936"
          id="text2020"
          transform="scale(0.99569175,1.0043269)"><tspan
            sodipodi:role="line"
            id="tspan2018"
-           x="-242.69341"
+           x="-114.98625"
            y="233.91936"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#2a3439;fill-opacity:1;stroke-width:0.266253">The Smagorinsky Model</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#2a3439;fill-opacity:1;stroke-width:0.266253">The Smagorinsky Model</tspan></text>
     </g>
   </g>
   <g

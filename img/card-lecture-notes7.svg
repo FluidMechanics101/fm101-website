@@ -2780,17 +2780,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="494.46967"
-     inkscape:cy="200.51528"
+     inkscape:zoom="1.4"
+     inkscape:cx="297.5"
+     inkscape:cy="200"
      inkscape:document-units="mm"
-     inkscape:current-layer="g4520"
+     inkscape:current-layer="g4943"
      showgrid="false"
      units="px"
-     inkscape:window-width="3840"
-     inkscape:window-height="2054"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:snap-global="true"
      inkscape:pagecheckerboard="true"
@@ -2836,15 +2836,15 @@
            ry="0" />
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:64.7843px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#282828;fill-opacity:1;stroke:none;stroke-width:0.694117"
-           x="337.24271"
+           style="font-style:normal;font-weight:normal;font-size:64.7843px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#282828;fill-opacity:1;stroke:none;stroke-width:0.694117"
+           x="663.22437"
            y="246.55537"
            id="text2020"><tspan
              sodipodi:role="line"
              id="tspan2018"
-             x="337.24271"
+             x="663.22437"
              y="246.55537"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:MLMRoman12;-inkscape-font-specification:MLMRoman12;fill:#282828;fill-opacity:1;stroke-width:0.694117">Multi-Grid for CFD (1)</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#282828;fill-opacity:1;stroke-width:0.694117">Multi-Grid for CFD (1)</tspan></text>
         <g
            id="g8153"
            transform="matrix(2.3164295,0,0,2.3138744,264.90796,-603.95822)"
@@ -4369,54 +4369,54 @@
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:20.5732px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.694117"
-           x="921.50354"
+           x="925.1452"
            y="513.33093"
            id="text14842"><tspan
              sodipodi:role="line"
              id="tspan14840"
-             x="921.50354"
+             x="925.1452"
              y="513.33093"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.5732px;font-family:MLMSans12;-inkscape-font-specification:MLMSans12;stroke-width:0.694117">100<tspan
-   style="font-size:13.3726px;baseline-shift:super;stroke-width:0.694117"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.5732px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';stroke-width:0.694117">100<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3726px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';baseline-shift:super;stroke-width:0.694117"
    id="tspan14838">o</tspan>C</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:20.5732px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.694117"
-           x="921.50354"
+           x="925.1452"
            y="466.08026"
            id="text14848"><tspan
              sodipodi:role="line"
              id="tspan14846"
-             x="921.50354"
+             x="925.1452"
              y="466.08026"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.5732px;font-family:MLMSans12;-inkscape-font-specification:MLMSans12;stroke-width:0.694117">150<tspan
-   style="font-size:13.3726px;baseline-shift:super;stroke-width:0.694117"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.5732px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';stroke-width:0.694117">150<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3726px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';baseline-shift:super;stroke-width:0.694117"
    id="tspan14844">o</tspan>C</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:20.5732px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.694117"
-           x="921.50354"
+           x="925.1452"
            y="418.82956"
            id="text14854"><tspan
              sodipodi:role="line"
              id="tspan14852"
-             x="921.50354"
+             x="925.1452"
              y="418.82956"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.5732px;font-family:MLMSans12;-inkscape-font-specification:MLMSans12;stroke-width:0.694117">200<tspan
-   style="font-size:13.3726px;baseline-shift:super;stroke-width:0.694117"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.5732px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';stroke-width:0.694117">200<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3726px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';baseline-shift:super;stroke-width:0.694117"
    id="tspan14850">o</tspan>C</tspan></text>
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:20.5732px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.694117"
-           x="921.50354"
+           x="925.1452"
            y="371.57892"
            id="text14860"><tspan
              sodipodi:role="line"
              id="tspan14858"
-             x="921.50354"
+             x="925.1452"
              y="371.57892"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.5732px;font-family:MLMSans12;-inkscape-font-specification:MLMSans12;stroke-width:0.694117">250<tspan
-   style="font-size:13.3726px;baseline-shift:super;stroke-width:0.694117"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.5732px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';stroke-width:0.694117">250<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3726px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';baseline-shift:super;stroke-width:0.694117"
    id="tspan14856">o</tspan>C</tspan></text>
         <path
            style="display:inline;fill:none;stroke:#000000;stroke-width:2.77646;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-3)"
@@ -4432,22 +4432,22 @@
              id="tspan20792"
              x="504.96457"
              y="549.93268"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.5732px;font-family:MLMSans12;-inkscape-font-specification:MLMSans12;stroke-width:0.694117">Restriction</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.5732px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';stroke-width:0.694117">Restriction</tspan></text>
         <path
            style="display:inline;fill:none;stroke:#d04537;stroke-width:2.77646;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM-3)"
            d="M 819.62723,331.00953 H 745.85754"
            id="path21864" />
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:20.5732px;line-height:1.25;font-family:sans-serif;display:inline;fill:#d04537;fill-opacity:1;stroke:none;stroke-width:0.694117"
-           x="619.73303"
+           style="font-style:normal;font-weight:normal;font-size:20.5732px;line-height:1.25;font-family:sans-serif;text-align:end;text-anchor:end;display:inline;fill:#d04537;fill-opacity:1;stroke:none;stroke-width:0.694117"
+           x="726.76758"
            y="336.13312"
            id="text21868"><tspan
              sodipodi:role="line"
              id="tspan21866"
-             x="619.73303"
+             x="726.76758"
              y="336.13312"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.5732px;font-family:MLMSans12;-inkscape-font-specification:MLMSans12;fill:#d04537;fill-opacity:1;stroke-width:0.694117">Prolongation</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.5732px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:end;text-anchor:end;fill:#d04537;fill-opacity:1;stroke-width:0.694117">Prolongation</tspan></text>
       </g>
     </g>
   </g>

@@ -2,24 +2,24 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="600"
    height="380"
    viewBox="0 0 158.75 100.54167"
    version="1.1"
    id="svg10576"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
    sodipodi:docname="card-lecture-notes1.svg"
    inkscape:export-filename="C:\Users\user\Documents\Youtube\stripe\sku_images\youtube_lecture1_10\lectureSlides1_10.png"
    inkscape:export-xdpi="200"
-   inkscape:export-ydpi="200">
+   inkscape:export-ydpi="200"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs10570">
     <clipPath
@@ -2270,15 +2270,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="231.07331"
-     inkscape:cy="296.70886"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="230.81986"
+     inkscape:cy="295.9747"
      inkscape:document-units="mm"
      inkscape:current-layer="g4520"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
+     inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -2292,7 +2292,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2315,13 +2314,13 @@
       <text
          id="text5325"
          y="233.45662"
-         x="-230.79753"
-         style="font-style:normal;font-weight:normal;font-size:35.27777863px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2a3439;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="-238.75534"
+         style="font-style:normal;font-weight:normal;font-size:35.2778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2a3439;fill-opacity:1;stroke:none;stroke-width:0.264583"
          xml:space="preserve"><tspan
            id="tspan4502"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.98611259px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#2a3439;fill-opacity:1;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.9861px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';fill:#2a3439;fill-opacity:1;stroke-width:0.264583"
            y="233.45662"
-           x="-230.79753"
+           x="-238.75534"
            sodipodi:role="line">Surface-to-Surface</tspan></text>
       <rect
          ry="0"
@@ -2333,14 +2332,14 @@
          y="275.66107" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:35.27777863px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2a3439;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         x="-174.99454"
+         style="font-style:normal;font-weight:normal;font-size:35.2778px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#2a3439;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="-178.10962"
          y="264.40005"
          id="text4508"><tspan
            sodipodi:role="line"
-           x="-174.99454"
+           x="-178.10962"
            y="264.40005"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.98611259px;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif';fill:#2a3439;fill-opacity:1;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.9861px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';fill:#2a3439;fill-opacity:1;stroke-width:0.264583"
            id="tspan4506">Radiation</tspan></text>
       <path
          inkscape:connector-curvature="0"
@@ -4327,24 +4326,22 @@
         </g>
         <text
            id="text16876"
-           style="font-variant:normal;font-weight:bold;font-size:26.00000191px;font-family:'CMU Sans Serif';-inkscape-font-specification:CMUSansSerif-Bold;writing-mode:lr-tb;fill:#002147;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           transform="matrix(1,0,0,-1,85.34097,165.49541)">
-          <tspan
+           style="font-variant:normal;font-weight:bold;font-size:26px;font-family:'CMU Sans Serif';-inkscape-font-specification:CMUSansSerif-Bold;writing-mode:lr-tb;fill:#002147;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,85.34097,165.49541)"
+           y="0"><tspan
              id="tspan16874"
              sodipodi:role="line"
              y="0"
-             x="0 18.278002 32.578003 55.094006 69.680008 84.266006 94.770004 108.42001 118.92401 125.55401 139.854 154.44002 168.09001 174.79802 184.34001 200.22601 206.85602 221.44202 228.07202 242.65802 252.20001 272.92203 285.92203 300.50803 314.15802 336.67401 343.30402 356.01804">Computational Fluid Dynamics</tspan>
-        </text>
+             x="0 18.278002 32.578003 55.094006 69.680008 84.266006 94.770004 108.42001 118.92401 125.55401 139.854 154.44002 168.09001 174.79802 184.34001 200.22601 206.85602 221.44202 228.07202 242.65802 252.20001 272.92203 285.92203 300.50803 314.15802 336.67401 343.30402 356.01804">Computational Fluid Dynamics</tspan></text>
         <text
            id="text16880"
-           style="font-variant:normal;font-weight:bold;font-size:26.00000572px;font-family:'CMU Sans Serif';-inkscape-font-specification:CMUSansSerif-Bold;writing-mode:lr-tb;fill:#002147;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           transform="matrix(1,0,0,-1,85.34097,121.996)">
-          <tspan
+           style="font-variant:normal;font-weight:bold;font-size:26px;font-family:'CMU Sans Serif';-inkscape-font-specification:CMUSansSerif-Bold;writing-mode:lr-tb;fill:#002147;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           transform="matrix(1,0,0,-1,85.34097,121.996)"
+           y="0"><tspan
              id="tspan16878"
              sodipodi:role="line"
              y="0"
-             x="0 15.080003 29.666006 44.25201 58.838013 72.488014 95.004021 108.29002 122.87602 133.38002 147.03003 153.66003 164.63203 174.17403 192.45204 206.75204 221.33804 231.01004 241.98204 255.26805 264.81006">Fundamentals Course 2</tspan>
-        </text>
+             x="0 15.080003 29.666006 44.25201 58.838013 72.488014 95.004021 108.29002 122.87602 133.38002 147.03003 153.66003 164.63203 174.17403 192.45204 206.75204 221.33804 231.01004 241.98204 255.26805 264.81006">Fundamentals Course 2</tspan></text>
       </g>
     </g>
   </g>

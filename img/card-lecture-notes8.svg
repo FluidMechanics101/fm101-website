@@ -2780,11 +2780,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.9899495"
-     inkscape:cx="307.59145"
-     inkscape:cy="247.48737"
+     inkscape:zoom="1.4"
+     inkscape:cx="307.5"
+     inkscape:cy="247.14286"
      inkscape:document-units="mm"
-     inkscape:current-layer="g4520"
+     inkscape:current-layer="g4396"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
@@ -2836,15 +2836,15 @@
            ry="0" />
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:74.0392px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#282828;fill-opacity:1;stroke:none;stroke-width:0.694117"
-           x="-364.11035"
+           style="font-style:normal;font-weight:normal;font-size:74.0392px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#282828;fill-opacity:1;stroke:none;stroke-width:0.694117"
+           x="-112.74008"
            y="636.69019"
            id="text2020-3"><tspan
              sodipodi:role="line"
              id="tspan2018-8"
-             x="-364.11035"
+             x="-112.74007"
              y="636.69019"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.0392px;font-family:MLMRoman12;-inkscape-font-specification:MLMRoman12;fill:#282828;fill-opacity:1;stroke-width:0.694117">Hexcore Meshes</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.0392px;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;text-anchor:middle;fill:#282828;fill-opacity:1;stroke-width:0.694117">Hexcore Meshes</tspan></text>
         <g
            id="g10094"
            transform="matrix(0.8079278,0,0,0.8075639,-14.677267,660.33183)"
