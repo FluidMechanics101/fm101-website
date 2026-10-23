@@ -70,15 +70,6 @@ h2.title,
     background-image: url("../img/backgroundTools.svg");
 }
 
-.background-download-success{
-    background-image: url("../img/backgroundDownload.svg");
-}
-
-.background-download-error{
-    background-image: url("../img/backgroundError.svg");
-}
-
-
 .background-content{
     position: absolute;
     z-index: 1;
