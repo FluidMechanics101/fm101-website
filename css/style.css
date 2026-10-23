@@ -1,3 +1,14 @@
+/* Common settings */
+html {
+    scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
 body{
     background-color: #2a3439;
     margin: 0;
