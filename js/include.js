@@ -1,19 +1,27 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const navContainer = document.getElementById("global-nav");
-    if (navContainer) {
-        fetch("/components/nav.html")
-            .then(response => response.text())
-            .then(data => {
-                navContainer.innerHTML = data;
-            });
-    }
+document.addEventListener("DOMContentLoaded", function () {
 
-    const footerContainer = document.getElementById("global-footer");
-    if (footerContainer) {
-        fetch("/components/footer.html")
-            .then(response => response.text())
-            .then(data => {
-                footerContainer.innerHTML = data;
-            });
-    }
+    const components = [
+        { id: "global-nav", path: "/components/nav.html" },
+        { id: "global-footer", path: "/components/footer.html" }
+    ];
+
+    components.forEach(function (component) {
+        const container = document.getElementById(component.id);
+
+        if (container) {
+            fetch(component.path)
+                .then(function (response) {
+                    if (!response.ok) {
+                        throw new Error("Failed to load: " + component.path)
+                    }
+                    return response.text();
+                })
+                .then(function (htmlContent) {
+                    container.innerHTML = htmlContent;
+                })
+                .catch(function (error){
+                    console.error("Error rendering component: ", error);
+                })
+        }
+    });
 });
