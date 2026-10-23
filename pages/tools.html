@@ -13,14 +13,7 @@
 <body>
 
     <!-- Nav Bar -->
-    <nav class = "main-nav">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="shop.html">Courses</a></li>
-            <li><a href="lectures.html">Lectures</a></li>
-            <li><a href="">Calculators</a></li>
-        </ul>
-    </nav>
+    <div id="global-nav"></div>
 
     <header class="showcase">
         <div class="background background-tools"></div>
@@ -39,7 +32,7 @@
 
     <section class="bg-light">
         <div class="card-container card-grid">
-            <button
+            <a
               class="card card-click"
               aria-label="Scroll to Inflation Layers calculator"
               onclick="scrollToSection('firstCellHeightSection')">
@@ -49,8 +42,8 @@
                 <div class="text">
                     <h4>Inflation Layers</h4>
                 </div>
-            </button>
-            <button
+            </a>
+            <a
               class="card card-click"
               aria-label="Scroll to Turbulence calculator"
               onclick="scrollToSection('inletTurbulenceSection')">
@@ -60,8 +53,8 @@
                 <div class="text">
                     <h4>Inlet Turbulence</h4>
                 </div>
-            </button>
-            <button
+            </a>
+            <a
               class="card card-click"
               aria-label="Scroll to Particle settling calculator"
               onclick="scrollToSection('particleSettlingSection')">
@@ -71,8 +64,8 @@
                 <div class="text">
                     <h4>Particle Settling</h4>
                 </div>
-            </button>
-            <button
+            </a>
+            <a
               class="card card-click"
               aria-label="Scroll to Humidity calculator"
               onclick="scrollToSection('humiditySection')">
@@ -82,8 +75,8 @@
                 <div class="text">
                     <h4>Humidity</h4>
                 </div>
-            </button>
-            <button
+            </a>
+            <a
               class="card card-click"
               aria-label="Scroll to explanation document"
               onclick="scrollToSection('howItWorksSection')">
@@ -93,7 +86,7 @@
                 <div class="text">
                     <h4>How Do They Work?</h4>
                 </div>
-            </button>
+            </a>
         </div>
     </section>
 
@@ -432,15 +425,14 @@
       title="Go to top">
       Top</button>
 
-    <!-- footer -->
-    <footer class="centre bg-dark">
-        <p>Fluid Mechanics 101 &copy; 2026</p>
-    </footer>
+    <!-- Footer -->
+    <div id="global-footer"></div>
 
     <!-- Render Blocking scripts and style sheets -->
     <script src="../js/scrollButton.js" defer></script>
     <script src="../js/scrollTopButton.js" defer></script>
     <script src="../js/calculator.js" defer></script>
+    <script src="../js/include.js" defer></script>
 
 </body>
 </html>
