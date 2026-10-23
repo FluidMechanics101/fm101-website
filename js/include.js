@@ -2,13 +2,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const components = [
         { id: "global-nav", path: "/components/nav.html" },
-        { id: "global-footer", path: "/components/footer.html" }
+        { id: "global-footer", path: "/components/footer.html" },
+        { id: "global-scrollTopButton", path: "/components/scrollTopButton.html" }
     ];
 
     components.forEach(function (component) {
         const container = document.getElementById(component.id);
 
-        if (container) {
+        if (container !== null) {
             fetch(component.path)
                 .then(function (response) {
                     if (!response.ok) {
