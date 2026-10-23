@@ -18,9 +18,9 @@
     <header class="showcase">
         <div class="background background-tools"></div>
         <div class="background-content">
-            <h1 class="title">Calculators and Tools</h1>
+            <h1 class="title">Calculators</h1>
             <p class="text">
-                Browse a range of CFD calculators and tools
+                Quick estimates of common CFD parameters
             </p>
             <button
               id="scroll-down-button"
@@ -40,7 +40,7 @@
                   src="../img/firstCellHeight.svg"
                   alt="Inflation layer image">
                 <div class="text">
-                    <h4>Inflation Layers</h4>
+                    <h4>Layers</h4>
                 </div>
             </a>
             <a
@@ -62,7 +62,7 @@
                   src="../img/particleSettling.svg"
                   alt="Particle settling image">
                 <div class="text">
-                    <h4>Particle Settling</h4>
+                    <h4>Settling Velocity</h4>
                 </div>
             </a>
             <a
@@ -98,8 +98,8 @@
               src="../img/firstCellHeightDiagram.svg"
               alt="cell-height-image">
             <div class="form-header">
-                <h2>Inflation Layer Calculator</h2>
-                <p>Estimate the height of the first cell in the inflation layer to achieve a target y<sup>+</sup> value and the maximum growth ratio for the inflation layers to cover the boundary layer thickness. Default values for air at 10 m/s, over a 1m long flat plate are provided, with 20 inflation layers.</p>
+                <h2>Layers</h2>
+                <p>Estimate the height of the first layer to achieve a target y<sup>+</sup>, and the maximum growth ratio for the layers to cover the boundary layer thickness.</p>
             </div>
             <div class="form-wrapper">
                 <form
@@ -195,8 +195,8 @@
     <section>
         <div class="container-slim centre bg-dark dotted-border-bottom" id="humiditySection">
             <div class="form-header">
-                <h2>Humidity Calculator</h2>
-                <p>For a given temperature, pressure and relative humidity, compute the specific humidity (mass of water vapour per unit mass of dry air), absolute humidity (mass of water vapour per unit mass of air-water vapour mixture) and mass fraction of water vapour. Default values for air at room temperature (25&#176;C), pressure (101325 Pa) and a relative humidity of 0.6 are provided.</p>
+                <h2>Humidity</h2>
+                <p>Calculate the specific and absolute humidity of air from the relative humidity.</p>
             </div>
             <div class="form-wrapper">
                 <form
@@ -204,7 +204,7 @@
                   id="humidityCalculatorForm"
                   onsubmit="return false">
                     <p>
-                        <label>Temp (&#176;C)</label>
+                        <label>Temperature (&#176;C)</label>
                         <input
                           type="text"
                           name="temperature"
@@ -218,7 +218,7 @@
                           placeholder="101325">
                     </p>
                     <p>
-                        <label>Rel. Hum. (-)</label>
+                        <label>Relative (-)</label>
                         <input
                           type="text"
                           name="relativeHumidity"
@@ -234,21 +234,21 @@
                           Calculate</button>
                     </p>
                     <p>
-                        <label>Spec. Hum. (kg/kg)</label>
+                        <label>Specific (kg/kg)</label>
                         <input
                           type="text"
                           name="specificHumidity"
                           placeholder="-- Calculated --" readonly>
                     </p>
                     <p>
-                        <label>Abs. Hum. (kg/kg)</label>
+                        <label>Absolute (kg/kg)</label>
                         <input
                           type="text"
                           name="absoluteHumidity"
                           placeholder="-- Calculated --" readonly>
                     </p>
                     <p>
-                        <label>Mass Frac. (-)</label>
+                        <label>Mass Fraction (-)</label>
                         <input
                           type="text"
                           name="massFraction"
@@ -262,8 +262,8 @@
     <section>
         <div class="container-slim centre bg-dark dotted-border-bottom" id="inletTurbulenceSection">
             <div class="form-header">
-                <h2>Turbulence Inlet Conditions Calculator</h2>
-                <p>For a given freestream turbulence intensity and length scale, compute the inlet values of turbulent kinetic energy (k), turbulence dissipation rate (&#949;), specific dissipation rate (&#969;) and turbulent kinematic viscosity (&#957;<sub>t</sub>). Default values for a flow at 10 m/s, with an intensity of 5% are shown. </p>
+                <h2>Inlet Turbulence</h2>
+                <p>Calculate k, &#949;, &#969; and &#957;<sub>t</sub> from turbulence intensity and a turbulence length scale.</p>
             </div>
             <div class="form-wrapper">
                 <form
@@ -336,8 +336,8 @@
     <section>
         <div class="container-slim centre bg-dark" id="particleSettlingSection">
             <div class="form-header">
-                <h2>Particle Settling Velocity Calculator</h2>
-                <p>Calculate the terminal settling velocity of a spherical particle falling under gravity in a viscous fluid. Default values for a 100 micron sand particle in water are provided.</p>
+                <h2>Settling Velocity</h2>
+                <p>Calculate the terminal settling velocity of a spherical particle falling under gravity.</p>
             </div>
             <div class="form-wrapper">
                 <form
@@ -345,14 +345,14 @@
                   id="settlingVelocityCalculatorForm"
                   onsubmit="return false">
                     <p>
-                        <label>Diameter (m)</label>
+                        <label>Particle Diameter (m)</label>
                         <input
                           type="text"
                           name="diameter"
                           placeholder="100e-6">
                     </p>
                     <p>
-                        <label>Density (kg/m3)</label>
+                        <label>Particle Density (kg/m3)</label>
                         <input
                           type="text"
                           name="particleDensity"
@@ -375,6 +375,13 @@
                           Calculate</button>
                     </p>
                     <p>
+                        <label>Velocity (m/s)</label>
+                        <input
+                          type="text"
+                          name="settlingVelocity"
+                          placeholder="-- Calculated --" readonly>
+                    </p>
+                    <p>
                         <label>Re (-)</label>
                         <input
                           type="text"
@@ -388,13 +395,6 @@
                           name="cd"
                           placeholder="-- Calculated --" readonly>
                     </p>
-                    <p>
-                        <label>Velocity (m/s)</label>
-                        <input
-                          type="text"
-                          name="settlingVelocity"
-                          placeholder="-- Calculated --" readonly>
-                    </p>
                 </form>
             </div>
         </div>
@@ -404,7 +404,9 @@
         <div class="container-slim centre" id="howItWorksSection">
             <div class="form-header">
                 <h2>How do the calculators work?</h2>
-                <p>Before using these calculators, it should be emphasised that unverified sources of information on the internet should not be trusted or relied upon. The calculators themselves (and the equations they use) <b>have not been verified or checked</b> and are likely to contain errors. Hence, if you want to use the calculators or methods in the calculators yourself, you should check the original sources and equations themselves and implement them yourself in your own work (and follow the verification and validation processes adopted by your company / institution). The calculators use a series of empirical correlations to obtain an engineering estimate of the quantities of interest. The calculators are for educational and demonstrative purposes only and should not be used to analyse, design, accredit or validate real scientific / engineering / mathematical structures and flow systems. For such applications, appropriate trained, qualified and accredited (SQEP) engineers / scientists should be consulted along with the appropriate documentation and engineering standards. Fluid Mechanics 101 and Dr. Aidan Wimshurst are not accountable or liable in any form for the use or misuse of the calculators beyond the specific educational and demonstrative purposes for which they were intended. </p>
+                <p>
+                  The calculators use empirical correlations to estimate the output parameters. The correlations are described in the PDF below. Please note, the calculators are for <b>educational purposes only</b> and should <b>not</b> be used to analyse, design, accredit or validate real scientific / engineering / mathematical structures and flow systems.
+                </p>
             </div>
             <a
               href="../pdf/calculators.pdf"
