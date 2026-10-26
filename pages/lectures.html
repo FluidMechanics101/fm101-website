@@ -13,7 +13,14 @@
 <body>
 
     <!-- Nav Bar -->
-    <div id="global-nav"></div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/pages/shop.html">Courses</a></li>
+        <li><a href="/pages/lectures.html">Lectures</a></li>
+        <li><a href="/pages/tools.html">Calculators</a></li>
+      </ul>
+    </nav>
 
     <!-- Background Image -->
     <header class="showcase">
@@ -270,14 +277,21 @@
     </section>
 
     <!-- Footer -->
-    <div id="global-scrollTopButton"></div>
-    <div id="global-footer"></div>
+    <button
+      onclick="scrollToTop()"
+      id="scrollTopButton"
+      title="Go to top">
+      Top
+    </button>
+
+    <footer class="centre bg-dark">
+      <p>Fluid Mechanics 101 &copy; 2026</p>
+    </footer>
 
     <!-- Render Blocking scripts and style sheets -->
     <script src="../js/scrollButton.js" defer></script>
     <script src="../js/scrollTopButton.js" defer></script>
     <script src="../js/accordion.js" defer></script>
-    <script src="../js/include.js" defer></script>
 
 </body>
 </html>
